@@ -16,6 +16,7 @@ import {
 } from "react-icons/fa";
 import { FaGithub, FaLinkedin, FaWhatsapp } from "react-icons/fa6";
 import mochdikiwidianto from "../assets/mochdikiwidianto.png";
+import { RiTailwindCssFill } from "react-icons/ri";
 
 const MainPage = () => {
   return (
@@ -256,6 +257,21 @@ const MainPage = () => {
                   {/* <FaStar className="w-4 h-4 text-orange-600" /> */}
                   <FaStarHalfAlt className="w-4 h-4 text-orange-600" />
                   {/* <FaRegStar className="w-4 h-4 text-orange-600" /> */}
+                </p>
+              </div>
+            </div>
+            <div className="flex justify-start items-center border border-emerald-300 rounded py-2 px-4 w-full lg:w-auto">
+              <RiTailwindCssFill className="w-16 h-16 text-sky-500" />
+              <div className="flex flex-col justify-center items-start ml-2">
+                <p className="font-bold">Tailwind CSS</p>
+                <p className="text-sm mb-1 italic">Tailwind CSS</p>
+                <p className="flex text-sm gap-1">
+                  <FaStar className="w-4 h-4 text-orange-600" />
+                  <FaStar className="w-4 h-4 text-orange-600" />
+                  <FaStar className="w-4 h-4 text-orange-600" />
+                  <FaStar className="w-4 h-4 text-orange-600" />
+                  {/* <FaStar className="w-4 h-4 text-orange-600" /> */}
+                  <FaStarHalfAlt className="w-4 h-4 text-orange-600" />
                 </p>
               </div>
             </div>
