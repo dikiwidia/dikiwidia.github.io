@@ -65,9 +65,11 @@ const MainPage = () => {
           </div>
         </div>
         {/* Profile */}
-        <div className="flex flex-col lg:flex-row lg:justify-between items-start mx-4 lg:mx-8 mt-14 mb-8">
+        <div className="flex flex-col lg:flex-row lg:justify-between items-start mx-4 lg:mx-8 mt-8 mb-8">
           <div className="flex flex-col justify-start lg:w-2/3 w-full lg:pr-16 pr-0 lg:mb-0 mb-2">
-            <h1 className="text-lg font-bold mb-4">Tentang Saya</h1>
+            <h1 className="text-lg font-bold mb-4 text-emerald-600">
+              Tentang Saya
+            </h1>
             <p className="text-md mb-4 lg:text-left text-justify">
               Perkenalkan Saya Moch Diki Widianto dari Rangkasbitung, Banten,
               Indonesia. Saya merupakan seorang <i>fullstack developer</i> yang
