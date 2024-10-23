@@ -27,15 +27,15 @@ const MainPage = () => {
           alt="Picture"
           className="w-full h-48 object-cover rounded-t-lg"
         />
-        <div className="flex justify-between items-start my-8 mx-8 relative">
-          <div className="absolute left-0 -top-32">
+        <div className="flex flex-col justify-start md:flex-row md:justify-between md:items-start my-8 mx-8 md:relative">
+          <div className="-mt-36 mx-auto md:mt-0 md:absolute md:left-0 md:-top-32">
             <img
               src={mochdikiwidianto}
               alt=""
               className="rounded-full w-48 h-48 object-cover bg-slate-300"
             />
           </div>
-          <div className="flex flex-col items-start ml-56 pr-36">
+          <div className="flex flex-col items-start md:ml-56 md:pr-36 md:mt-0 mt-5 md:mb:0 mb-5">
             <h1 className="text-2xl font-bold mb-2">Moch Diki Widianto</h1>
             <p className="text-md">
               Halo semua, Selamat datang di situsweb portofolio sederhana ini,
@@ -43,7 +43,7 @@ const MainPage = () => {
               Banten, Indonesia 🇮🇩
             </p>
           </div>
-          <div className="flex justify-end items-center gap-1">
+          <div className="flex justify-center md:justify-end items-center gap-1">
             <a
               href="https://wa.me/6289735700005"
               target="_blank"
@@ -63,8 +63,8 @@ const MainPage = () => {
           </div>
         </div>
         {/* Profile */}
-        <div className="flex justify-between items-start mx-8 mt-14 mb-16">
-          <div className="flex flex-col justify-start w-2/3 pr-16">
+        <div className="flex flex-col md:flex-row md:justify-between items-start mx-8 mt-14 mb-16">
+          <div className="flex flex-col justify-start md:w-2/3 w-full md:pr-16 pr-0 md:mb-0 mb-2">
             <h1 className="text-lg font-bold mb-4">Tentang Saya</h1>
             <p className="text-md mb-4">
               Perkenalkan Saya Moch Diki Widianto dari Rangkasbitung, Banten,
@@ -81,12 +81,12 @@ const MainPage = () => {
               halaman ini.
             </p>
           </div>
-          <div className="flex justify-start items-start flex-wrap w-1/3">
-            <div className="flex flex-col w-1/2 px-4 my-4">
+          <div className="flex justify-start items-start flex-wrap md:w-1/3 w-full md:mb-0 mb-2">
+            <div className="flex flex-col md:w-1/2 md:px-4 md:my-4 w-full py-1">
               <h1 className="font-bold text-slate-600">Wilayah Negara</h1>
               <p className="text-md">Rangkasbitung, Banten, Indonesia 🇮🇩</p>
             </div>
-            <div className="flex flex-col w-1/2 px-4 my-4">
+            <div className="flex flex-col md:w-1/2 md:px-4 md:my-4 w-full py-1">
               <h1 className="font-bold text-slate-600">Situs Web</h1>
               <a
                 href="https://dikiwidia.github.io"
@@ -97,7 +97,7 @@ const MainPage = () => {
                 <FaExternalLinkAlt className="ml-2 w-4 h-4" />
               </a>
             </div>
-            <div className="flex flex-col w-1/2 px-4 my-4">
+            <div className="flex flex-col md:w-1/2 md:px-4 md:my-4 w-full py-1">
               <h1 className="font-bold text-slate-600">Surat Elektronik</h1>
               <a
                 href="mailto:diki.widianto@unilam.ac.id"
@@ -108,7 +108,7 @@ const MainPage = () => {
                 <FaExternalLinkAlt className="ml-2 w-4 h-4" />
               </a>
             </div>
-            <div className="flex flex-col w-1/2 px-4 my-4">
+            <div className="flex flex-col md:w-1/2 md:px-4 md:my-4 w-full py-1">
               <h1 className="font-bold text-slate-600">GitHub</h1>
               <a
                 href="https://github.com/dikiwidia"
@@ -122,12 +122,12 @@ const MainPage = () => {
           </div>
         </div>
         {/* Skills */}
-        <div className="flex flex-col justify-center items-center mx-8 my-8">
+        <div className="flex flex-col justify-center md:items-center md:mx-8 md:my-8 mx-2 my-2">
           <h1 className="text-lg font-bold text-emerald-600 mb-8">
             Bahasa Pemrograman / Framework
           </h1>
-          <div className="flex flex-wrap justify-center items-center gap-2 mb-8 w-full">
-            <div className="flex justify-start items-center border border-emerald-300 rounded py-2 px-4">
+          <div className="flex flex-col md:flex-row md:flex-wrap justify-center items-center gap-2 mb-8 w-full">
+            <div className="flex justify-start items-center border border-emerald-300 rounded py-2 px-4 w-full md:w-auto">
               <DiHtml5 className="w-16 h-16 text-orange-500" />
               <div className="flex flex-col justify-center items-start ml-2">
                 <p className="font-bold">HTML5</p>
@@ -144,7 +144,7 @@ const MainPage = () => {
                 </p>
               </div>
             </div>
-            <div className="flex justify-start items-center border border-emerald-300 rounded py-2 px-4">
+            <div className="flex justify-start items-center border border-emerald-300 rounded py-2 px-4 w-full md:w-auto">
               <DiPhp className="w-16 h-16 text-blue-500" />
               <div className="flex flex-col justify-center items-start ml-2">
                 <p className="font-bold">PHP</p>
@@ -161,7 +161,7 @@ const MainPage = () => {
                 </p>
               </div>
             </div>
-            <div className="flex justify-start items-center border border-emerald-300 rounded py-2 px-4">
+            <div className="flex justify-start items-center border border-emerald-300 rounded py-2 px-4 w-full md:w-auto">
               <DiCss3Full className="w-16 h-16 text-blue-700" />
               <div className="flex flex-col justify-center items-start ml-2">
                 <p className="font-bold">CSS3</p>
@@ -176,7 +176,7 @@ const MainPage = () => {
                 </p>
               </div>
             </div>
-            <div className="flex justify-start items-center border border-emerald-300 rounded py-2 px-4">
+            <div className="flex justify-start items-center border border-emerald-300 rounded py-2 px-4 w-full md:w-auto">
               <DiJavascript1 className="w-16 h-16 text-yellow-500" />
               <div className="flex flex-col justify-center items-start ml-2">
                 <p className="font-bold">JS</p>
@@ -191,7 +191,7 @@ const MainPage = () => {
                 </p>
               </div>
             </div>
-            <div className="flex justify-start items-center border border-emerald-300 rounded py-2 px-4">
+            <div className="flex justify-start items-center border border-emerald-300 rounded py-2 px-4 w-full md:w-auto">
               <DiDart className="w-16 h-16 text-blue-400" />
               <div className="flex flex-col justify-center items-start ml-2">
                 <p className="font-bold">Dart</p>
@@ -207,7 +207,7 @@ const MainPage = () => {
                 </p>
               </div>
             </div>
-            <div className="flex justify-start items-center border border-emerald-300 rounded py-2 px-4">
+            <div className="flex justify-start items-center border border-emerald-300 rounded py-2 px-4 w-full md:w-auto">
               <DiReact className="w-16 h-16 text-blue-500" />
               <div className="flex flex-col justify-center items-start ml-2">
                 <p className="font-bold">ReactJs</p>
@@ -223,7 +223,7 @@ const MainPage = () => {
                 </p>
               </div>
             </div>
-            <div className="flex justify-start items-center border border-emerald-300 rounded py-2 px-4">
+            <div className="flex justify-start items-center border border-emerald-300 rounded py-2 px-4 w-full md:w-auto">
               <DiLaravel className="w-16 h-16 text-orange-500" />
               <div className="flex flex-col justify-center items-start ml-2">
                 <p className="font-bold">Laravel</p>
@@ -239,7 +239,7 @@ const MainPage = () => {
                 </p>
               </div>
             </div>
-            <div className="flex justify-start items-center border border-emerald-300 rounded py-2 px-4">
+            <div className="flex justify-start items-center border border-emerald-300 rounded py-2 px-4 w-full md:w-auto">
               <FaVuejs className="w-16 h-16 text-green-500" />
               <div className="flex flex-col justify-center items-start ml-2">
                 <p className="font-bold">VueJs</p>
@@ -258,7 +258,7 @@ const MainPage = () => {
           </div>
         </div>
         {/* Footer */}
-        <div className="flex justify-center items-center mx-8 my-4 border-t-2 border-slate-100 py-4">
+        <div className="flex justify-center items-center mx-8 md:my-4  border-t-2 border-slate-100 py-4">
           <p className="text-sm text-slate-500">
             Hak Cipta &copy; {new Date().getFullYear()} Moch Diki Widianto
           </p>
