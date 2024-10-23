@@ -66,7 +66,7 @@ const MainPage = () => {
         <div className="flex flex-col md:flex-row md:justify-between items-start mx-8 mt-14 mb-16">
           <div className="flex flex-col justify-start md:w-2/3 w-full md:pr-16 pr-0 md:mb-0 mb-2">
             <h1 className="text-lg font-bold mb-4">Tentang Saya</h1>
-            <p className="text-md mb-4">
+            <p className="text-md mb-4 md:text-left text-justify">
               Perkenalkan Saya Moch Diki Widianto dari Rangkasbitung, Banten,
               Indonesia. Saya merupakan seorang <i>fullstack developer</i> yang
               mempelajari bahasa pemrograman secara otodidak mencari informasi
@@ -74,7 +74,7 @@ const MainPage = () => {
               dan familiar dengan beberapa bahasa pemrogaram dan berbagai macam{" "}
               <i>framework</i>.
             </p>
-            <p className="text-md">
+            <p className="text-md md:text-left text-justify">
               Beberapa diantaranya PHP, Laravel, React, VueJs, dan masih banyak
               lagi. Untuk dapat terhubung dengan Saya anda dapat menghubungi
               Saya melalui Whatsapp, Email, atau LinkedIn yang tertera pada
