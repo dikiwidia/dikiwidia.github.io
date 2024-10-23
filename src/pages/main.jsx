@@ -45,7 +45,7 @@ const MainPage = () => {
           </div>
           <div className="flex justify-center md:justify-end items-center gap-1">
             <a
-              href="https://wa.me/6289735700005"
+              href="https://wa.me/628973570005"
               target="_blank"
               className="flex justify-start items-center border border-green-600 text-green-600 shadow-md hover:bg-green-600 hover:text-white font-bold py-2 px-4 rounded"
             >
