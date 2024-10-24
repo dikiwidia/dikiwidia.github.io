@@ -1,5 +1,4 @@
 import {
-  DiBootstrap,
   DiCss3Full,
   DiDart,
   DiHtml5,
@@ -8,8 +7,16 @@ import {
   DiLaravel,
   DiPhp,
   DiReact,
+  DiUbuntu,
 } from "react-icons/di";
-import { FaRegStar, FaStar, FaStarHalfAlt, FaVuejs } from "react-icons/fa";
+import {
+  FaBootstrap,
+  FaProjectDiagram,
+  FaRegStar,
+  FaStar,
+  FaStarHalfAlt,
+  FaVuejs,
+} from "react-icons/fa";
 import { RiTailwindCssFill } from "react-icons/ri";
 
 const ProgramLangComponent = (props) => {
@@ -70,10 +77,18 @@ const ProgramLangComponent = (props) => {
       break;
     case "bootstrap":
       programTitle = "Bootstrap";
-      programLang = <DiBootstrap className="w-16 h-16 text-blue-400" />;
+      programLang = <FaBootstrap className="w-16 h-16 text-blue-400" />;
       programDesc = "Bootstrap";
       break;
+    case "ubuntu-server":
+      programTitle = "Ubuntu Server";
+      programLang = <DiUbuntu className="w-16 h-16 text-red-400" />;
+      programDesc = "Ubuntu Server, CI/CD, Web Server";
+      break;
     default:
+      programTitle = lang;
+      programLang = <FaProjectDiagram className="w-16 h-16 text-rose-400" />;
+      programDesc = lang;
       break;
   }
 
@@ -95,7 +110,7 @@ const ProgramLangComponent = (props) => {
   }
 
   return (
-    <div className="flex justify-start items-center border border-emerald-300 rounded py-2 px-4 w-full lg:w-auto">
+    <div className="flex justify-start items-center border border-slate-300 rounded py-2 px-4 w-full lg:w-auto bg-slate-50">
       {programLang}
       <div className="flex flex-col justify-center items-start ml-2">
         <p className="font-bold">{programTitle}</p>

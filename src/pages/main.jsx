@@ -1,30 +1,14 @@
-import {
-  DiCss3Full,
-  DiDart,
-  DiHtml5,
-  DiJavascript1,
-  DiLaravel,
-  DiPhp,
-  DiReact,
-} from "react-icons/di";
-import {
-  FaEnvelope,
-  FaExternalLinkAlt,
-  FaRegStar,
-  FaStar,
-  FaStarHalfAlt,
-  FaVuejs,
-} from "react-icons/fa";
-import { FaGithub, FaLinkedin, FaWhatsapp } from "react-icons/fa6";
+import { FaEnvelope, FaExternalLinkAlt, FaSuitcase } from "react-icons/fa";
+import { FaLinkedin } from "react-icons/fa6";
 import mochdikiwidianto from "../assets/mochdikiwidianto.png";
 import jasper from "../assets/projects/jasper.png";
 import siakad_unilam from "../assets/projects/siakad_unilam.png";
 import siraja from "../assets/projects/siraja.png";
 import kamus_baduy from "../assets/projects/kamus_baduy.png";
 import qudwahqu from "../assets/projects/qudwahqu.png";
-import { RiTailwindCssFill } from "react-icons/ri";
 import ProgramLangComponent from "../components/ProgramLang";
 import ProjectExpComponent from "../components/ProjectExp";
+import WorkExpComponent from "../components/WorkExp";
 
 const MainPage = () => {
   return (
@@ -134,6 +118,63 @@ const MainPage = () => {
             </div>
           </div>
         </div>
+        {/* Experience */}
+        <div className="flex flex-col justify-center lg:items-center lg:mx-8 lg:my-4 mx-4 my-2">
+          <h1 className="text-lg font-bold text-emerald-600 mb-8">
+            Pengalaman Bekerja
+          </h1>
+          <ol className="flex flex-col gap-4 border-l-2 border-dashed border-emerald-600 list-decimal list-inside mb-8 pl-8 mx-4 lg:mx-0 xl:w-2/3">
+            <WorkExpComponent
+              title="Fullstack Developer"
+              place="Universitas La Tansa Mashiro"
+              desc="Jul 2023 - Saat ini, Rangkasbitung, Banten, Indonesia 🇮🇩"
+            >
+              Bertanggung jawab secara penuh terhadap sistem informasi yang ada
+              di Universitas La Tansa Mashiro, membuat perencanaan pembuatan
+              aplikasi berbasis web atau mobile, backup data dan maintenance
+              server.
+            </WorkExpComponent>
+            <WorkExpComponent
+              title="Fullstack Supervisor"
+              place="PT Bumi Lancang Kuning Pusaka (BLKP)"
+              desc="Jan-2023 - Jul 2023, Cikande, Banten, Indonesia 🇮🇩"
+            >
+              Bertanggung jawab dalam perancangan module pada ERP, Menugaskan
+              pekerjaan pada anggota tim, meninjau dan mengevaluasi (source
+              code) hasil pekerjaan anggota tim dan melaporkan progress kinerja
+              mingguan. Manajemen kode sumber dan basis data di server lokal dan
+              repository git. Membuat mockup untuk modul yang akan dibuat dan
+              dikembangkan berdasarkan analisa kebutuhan user dari QA
+            </WorkExpComponent>
+            <WorkExpComponent
+              title="Fullstack Staff"
+              place="PT Bumi Lancang Kuning Pusaka (BLKP)"
+              desc="Mar-2020 - Des 2022, Cikande, Banten, Indonesia 🇮🇩"
+            >
+              Membuat berbagai macam modul seperti, modul penjualan, pembelian,
+              hris, keuangan dan lain-lain dengan menggunakan framework Laravel
+              sebagai backend dan VueJS sebagai frontend. Memastikan tidak ada
+              bug pada aplikasi.
+            </WorkExpComponent>
+            <WorkExpComponent
+              title="Information Technology Support Staff"
+              place="PT Bumi Lancang Kuning Pusaka (BLKP)"
+              desc="Agu-2019 - Mar 2020, Cikande, Banten, Indonesia 🇮🇩"
+            >
+              Bertanggung jawab dalam troubleshooting dan maintenance jaringan
+              server atau client di lingkungan perusahaan menggunakan Mikrotik
+              di seluruh anak perusahaan dan cabang seluruh Indonesia
+            </WorkExpComponent>
+            <WorkExpComponent
+              title="IT Support Staff"
+              place="Perguruan Tingi La Tansa Mashiro"
+              desc="Jan-2016 - Mar 2019, Rangkasbitung, Banten, Indonesia 🇮🇩"
+            >
+              Bertanggung jawab dalam troubleshooting dan maintenance jaringan
+              server atau client di lingkungan perusahaan menggunakan Mikrotik.
+            </WorkExpComponent>
+          </ol>
+        </div>
         {/* Skills */}
         <div className="flex flex-col justify-center lg:items-center lg:mx-8 lg:my-4 mx-4 my-2">
           <h1 className="text-lg font-bold text-emerald-600 mb-8">
@@ -151,12 +192,13 @@ const MainPage = () => {
             <ProgramLangComponent lang="tailwindcss" rating={4.5} />
             <ProgramLangComponent lang="jquery" rating={4.5} />
             <ProgramLangComponent lang="bootstrap" rating={4.0} />
+            <ProgramLangComponent lang="ubuntu-server" rating={5.0} />
           </div>
         </div>
         {/* Projects */}
         <div className="flex flex-col justify-center lg:items-center lg:mx-8 lg:my-4 mx-4 my-2">
           <h1 className="text-lg font-bold text-emerald-600 mb-8">
-            Pengalaman Project / Portofolio Pekerjaan
+            Portofolio
           </h1>
           <div className="flex justify-center items-start gap-4 flex-wrap">
             <ProjectExpComponent
