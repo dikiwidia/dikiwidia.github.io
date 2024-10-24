@@ -8,6 +8,7 @@ import {
   DiReact,
 } from "react-icons/di";
 import {
+  FaEnvelope,
   FaExternalLinkAlt,
   FaRegStar,
   FaStar,
@@ -29,14 +30,14 @@ const MainPage = () => {
           className="w-full h-48 object-cover rounded-t-lg"
         />
         <div className="flex flex-col justify-start lg:flex-row lg:justify-between lg:items-start lg:my-8 lg:mx-8 my-4 mx-4 lg:relative">
-          <div className="-mt-28 mx-auto lg:mt-0 lg:absolute lg:left-0 lg:-top-32">
+          <div className="-mt-28 mx-auto lg:mt-0 lg:absolute lg:left-0 lg:-top-28">
             <img
               src={mochdikiwidianto}
               alt=""
-              className="rounded-full w-40 h-40 lg:w-48 lg:h-48 object-cover bg-slate-300"
+              className="rounded-full w-40 h-40 object-cover bg-slate-300"
             />
           </div>
-          <div className="flex flex-col items-center lg:items-start lg:ml-56 lg:pr-36 lg:mt-0 mt-5 lg:mb:0 mb-5">
+          <div className="flex flex-col lg:w-1/2 items-center lg:items-start lg:ml-44 lg:pr-16 lg:mt-0 mt-5 lg:mb:0 mb-5">
             <h1 className="text-2xl font-bold mb-2 text-center lg:text-left">
               Moch Diki Widianto
             </h1>
@@ -48,12 +49,12 @@ const MainPage = () => {
           </div>
           <div className="flex justify-center lg:justify-end items-center gap-1">
             <a
-              href="https://wa.me/628973570005"
+              href="mailto:diki.widianto@unilam.ac.id"
               target="_blank"
-              className="flex justify-start items-center border border-green-600 text-green-600 shadow-md hover:bg-green-600 hover:text-white font-bold py-2 px-4 rounded"
+              className="flex justify-start items-center border border-rose-600 text-rose-600 shadow-md hover:bg-rose-600 hover:text-white font-bold py-2 px-4 rounded"
             >
-              <FaWhatsapp className="mr-2 w-6 h-6" />
-              Whatsapp
+              <FaEnvelope className="mr-2 w-6 h-6" />
+              Hubungi Saya
             </a>
             <a
               href="https://www.linkedin.com/in/mochdikiwidianto/"
