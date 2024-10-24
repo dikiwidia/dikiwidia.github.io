@@ -23,6 +23,8 @@ import siraja from "../assets/projects/siraja.png";
 import kamus_baduy from "../assets/projects/kamus_baduy.png";
 import qudwahqu from "../assets/projects/qudwahqu.png";
 import { RiTailwindCssFill } from "react-icons/ri";
+import ProgramLangComponent from "../components/ProgramLang";
+import ProjectExpComponent from "../components/ProjectExp";
 
 const MainPage = () => {
   return (
@@ -138,149 +140,17 @@ const MainPage = () => {
             Bahasa Pemrograman / Framework
           </h1>
           <div className="flex flex-col lg:flex-row lg:flex-wrap justify-center items-center gap-2 mb-8 w-full">
-            <div className="flex justify-start items-center border border-emerald-300 rounded py-2 px-4 w-full lg:w-auto">
-              <DiHtml5 className="w-16 h-16 text-orange-500" />
-              <div className="flex flex-col justify-center items-start ml-2">
-                <p className="font-bold">HTML5</p>
-                <p className="text-sm mb-1 italic">
-                  Hypertext Markup Language 5
-                </p>
-                <p className="flex text-sm gap-1">
-                  <FaStar className="w-4 h-4 text-orange-600" />
-                  <FaStar className="w-4 h-4 text-orange-600" />
-                  <FaStar className="w-4 h-4 text-orange-600" />
-                  <FaStar className="w-4 h-4 text-orange-600" />
-                  <FaStar className="w-4 h-4 text-orange-600" />
-                  {/* <FaStarHalfAlt className="w-4 h-4 text-orange-600" /> */}
-                </p>
-              </div>
-            </div>
-            <div className="flex justify-start items-center border border-emerald-300 rounded py-2 px-4 w-full lg:w-auto">
-              <DiPhp className="w-16 h-16 text-blue-500" />
-              <div className="flex flex-col justify-center items-start ml-2">
-                <p className="font-bold">PHP</p>
-                <p className="text-sm mb-1 italic">
-                  PHP: Hypertext Preprocessor
-                </p>
-                <p className="flex text-sm gap-1">
-                  <FaStar className="w-4 h-4 text-orange-600" />
-                  <FaStar className="w-4 h-4 text-orange-600" />
-                  <FaStar className="w-4 h-4 text-orange-600" />
-                  <FaStar className="w-4 h-4 text-orange-600" />
-                  <FaStar className="w-4 h-4 text-orange-600" />
-                  {/* <FaStarHalfAlt className="w-4 h-4 text-orange-600" /> */}
-                </p>
-              </div>
-            </div>
-            <div className="flex justify-start items-center border border-emerald-300 rounded py-2 px-4 w-full lg:w-auto">
-              <DiCss3Full className="w-16 h-16 text-blue-700" />
-              <div className="flex flex-col justify-center items-start ml-2">
-                <p className="font-bold">CSS3</p>
-                <p className="text-sm mb-1 italic">Cascading Style Sheets 3</p>
-                <p className="flex text-sm gap-1">
-                  <FaStar className="w-4 h-4 text-orange-600" />
-                  <FaStar className="w-4 h-4 text-orange-600" />
-                  <FaStar className="w-4 h-4 text-orange-600" />
-                  <FaStar className="w-4 h-4 text-orange-600" />
-                  {/* <FaStar className="w-4 h-4 text-orange-600" /> */}
-                  <FaStarHalfAlt className="w-4 h-4 text-orange-600" />
-                </p>
-              </div>
-            </div>
-            <div className="flex justify-start items-center border border-emerald-300 rounded py-2 px-4 w-full lg:w-auto">
-              <DiJavascript1 className="w-16 h-16 text-yellow-500" />
-              <div className="flex flex-col justify-center items-start ml-2">
-                <p className="font-bold">JS</p>
-                <p className="text-sm mb-1 italic">JavaScript</p>
-                <p className="flex text-sm gap-1">
-                  <FaStar className="w-4 h-4 text-orange-600" />
-                  <FaStar className="w-4 h-4 text-orange-600" />
-                  <FaStar className="w-4 h-4 text-orange-600" />
-                  <FaStar className="w-4 h-4 text-orange-600" />
-                  {/* <FaStar className="w-4 h-4 text-orange-600" /> */}
-                  <FaStarHalfAlt className="w-4 h-4 text-orange-600" />
-                </p>
-              </div>
-            </div>
-            <div className="flex justify-start items-center border border-emerald-300 rounded py-2 px-4 w-full lg:w-auto">
-              <DiDart className="w-16 h-16 text-blue-400" />
-              <div className="flex flex-col justify-center items-start ml-2">
-                <p className="font-bold">Dart</p>
-                <p className="text-sm mb-1 italic">Dart Framework</p>
-                <p className="flex text-sm gap-1">
-                  <FaStar className="w-4 h-4 text-orange-600" />
-                  <FaStar className="w-4 h-4 text-orange-600" />
-                  <FaStar className="w-4 h-4 text-orange-600" />
-                  {/* <FaStar className="w-4 h-4 text-orange-600" /> */}
-                  {/* <FaStar className="w-4 h-4 text-orange-600" /> */}
-                  <FaStarHalfAlt className="w-4 h-4 text-orange-600" />
-                  <FaRegStar className="w-4 h-4 text-orange-600" />
-                </p>
-              </div>
-            </div>
-            <div className="flex justify-start items-center border border-emerald-300 rounded py-2 px-4 w-full lg:w-auto">
-              <DiReact className="w-16 h-16 text-blue-500" />
-              <div className="flex flex-col justify-center items-start ml-2">
-                <p className="font-bold">ReactJs</p>
-                <p className="text-sm mb-1 italic">ReactJs</p>
-                <p className="flex text-sm gap-1">
-                  <FaStar className="w-4 h-4 text-orange-600" />
-                  <FaStar className="w-4 h-4 text-orange-600" />
-                  <FaStar className="w-4 h-4 text-orange-600" />
-                  {/* <FaStar className="w-4 h-4 text-orange-600" /> */}
-                  {/* <FaStar className="w-4 h-4 text-orange-600" /> */}
-                  <FaStarHalfAlt className="w-4 h-4 text-orange-600" />
-                  <FaRegStar className="w-4 h-4 text-orange-600" />
-                </p>
-              </div>
-            </div>
-            <div className="flex justify-start items-center border border-emerald-300 rounded py-2 px-4 w-full lg:w-auto">
-              <DiLaravel className="w-16 h-16 text-orange-500" />
-              <div className="flex flex-col justify-center items-start ml-2">
-                <p className="font-bold">Laravel</p>
-                <p className="text-sm mb-1 italic">Laravel Framework</p>
-                <p className="flex text-sm gap-1">
-                  <FaStar className="w-4 h-4 text-orange-600" />
-                  <FaStar className="w-4 h-4 text-orange-600" />
-                  <FaStar className="w-4 h-4 text-orange-600" />
-                  <FaStar className="w-4 h-4 text-orange-600" />
-                  <FaStar className="w-4 h-4 text-orange-600" />
-                  {/* <FaStarHalfAlt className="w-4 h-4 text-orange-600" />
-                  <FaRegStar className="w-4 h-4 text-orange-600" /> */}
-                </p>
-              </div>
-            </div>
-            <div className="flex justify-start items-center border border-emerald-300 rounded py-2 px-4 w-full lg:w-auto">
-              <FaVuejs className="w-16 h-16 text-green-500" />
-              <div className="flex flex-col justify-center items-start ml-2">
-                <p className="font-bold">VueJs</p>
-                <p className="text-sm mb-1 italic">VueJs Framework</p>
-                <p className="flex text-sm gap-1">
-                  <FaStar className="w-4 h-4 text-orange-600" />
-                  <FaStar className="w-4 h-4 text-orange-600" />
-                  <FaStar className="w-4 h-4 text-orange-600" />
-                  <FaStar className="w-4 h-4 text-orange-600" />
-                  {/* <FaStar className="w-4 h-4 text-orange-600" /> */}
-                  <FaStarHalfAlt className="w-4 h-4 text-orange-600" />
-                  {/* <FaRegStar className="w-4 h-4 text-orange-600" /> */}
-                </p>
-              </div>
-            </div>
-            <div className="flex justify-start items-center border border-emerald-300 rounded py-2 px-4 w-full lg:w-auto">
-              <RiTailwindCssFill className="w-16 h-16 text-sky-500" />
-              <div className="flex flex-col justify-center items-start ml-2">
-                <p className="font-bold">Tailwind CSS</p>
-                <p className="text-sm mb-1 italic">Tailwind CSS</p>
-                <p className="flex text-sm gap-1">
-                  <FaStar className="w-4 h-4 text-orange-600" />
-                  <FaStar className="w-4 h-4 text-orange-600" />
-                  <FaStar className="w-4 h-4 text-orange-600" />
-                  <FaStar className="w-4 h-4 text-orange-600" />
-                  {/* <FaStar className="w-4 h-4 text-orange-600" /> */}
-                  <FaStarHalfAlt className="w-4 h-4 text-orange-600" />
-                </p>
-              </div>
-            </div>
+            <ProgramLangComponent lang="html5" rating={5.0} />
+            <ProgramLangComponent lang="css3" rating={4.5} />
+            <ProgramLangComponent lang="php" rating={5.0} />
+            <ProgramLangComponent lang="js" rating={4.5} />
+            <ProgramLangComponent lang="dart" rating={4.5} />
+            <ProgramLangComponent lang="react" rating={4.0} />
+            <ProgramLangComponent lang="laravel" rating={5.0} />
+            <ProgramLangComponent lang="vuejs" rating={4.0} />
+            <ProgramLangComponent lang="tailwindcss" rating={4.5} />
+            <ProgramLangComponent lang="jquery" rating={4.5} />
+            <ProgramLangComponent lang="bootstrap" rating={4.0} />
           </div>
         </div>
         {/* Projects */}
@@ -289,103 +159,47 @@ const MainPage = () => {
             Pengalaman Project / Portofolio Pekerjaan
           </h1>
           <div className="flex justify-center items-start gap-4 flex-wrap">
-            <div className="flex flex-col justify-center items-center rounded border border-emerald-100 bg-slate-50 w-full lg:w-1/4 shadow-md">
-              <img
-                src={jasper}
-                className="w-full h-auto object-contain rounded-t"
-                alt=""
-                srcset=""
-              />
-              <div className="flex flex-col py-4 px-4">
-                <h2 className="text-lg font-bold text-emerald-600">
-                  Jasper - ERP
-                </h2>
-                <p className="text-sm text-slate-500 italic mb-2">
-                  Laravel, VueJs
-                </p>
-                <p className="text-md text-slate-600">
-                  Jasper adalah aplikasi ERP (Enterprise Resource Planning) yang
-                  didalamnya mencakup beberapa modul yang dibutuhkan oleh sebuah
-                  perusahaan.
-                </p>
-              </div>
-            </div>
-            <div className="flex flex-col justify-center items-center rounded border border-emerald-100 bg-slate-50 w-full lg:w-1/4 shadow-md">
-              <img
-                src={siakad_unilam}
-                className="w-full h-auto object-contain rounded-t"
-                alt=""
-                srcset=""
-              />
-              <div className="flex flex-col py-4 px-4">
-                <h2 className="text-lg font-bold text-emerald-600">
-                  Siakad Unilam
-                </h2>
-                <p className="text-sm text-slate-500 italic mb-2">Laravel</p>
-                <p className="text-md text-slate-600">
-                  Siakad Unilam adalah Sistem Informasi Akademik Universitas La
-                  Tansa Mashiro yang merupakan aplikasi penunjang kegiatan
-                  akademik di Universitas La Tansa Mashiro.
-                </p>
-              </div>
-            </div>
-            <div className="flex flex-col justify-center items-center rounded border border-emerald-100 bg-slate-50 w-full lg:w-1/4 shadow-md">
-              <img
-                src={siraja}
-                className="w-full h-auto object-contain rounded-t"
-                alt=""
-                srcset=""
-              />
-              <div className="flex flex-col py-4 px-4">
-                <h2 className="text-lg font-bold text-emerald-600">Siraja</h2>
-                <p className="text-sm text-slate-500 italic mb-2">Laravel</p>
-                <p className="text-md text-slate-600">
-                  Siraja (Sistem Informasi Rakyat Sejahtera) adalah sebuah
-                  aplikasi analisis data kemiskinan ekstrem yang dikembangkan
-                  bersama Pemerintah Kabupaten Lebak
-                </p>
-              </div>
-            </div>
-            <div className="flex flex-col justify-center items-center rounded border border-emerald-100 bg-slate-50 w-full lg:w-1/4 shadow-md">
-              <img
-                src={kamus_baduy}
-                className="w-full h-auto object-contain rounded-t"
-                alt=""
-                srcset=""
-              />
-              <div className="flex flex-col py-4 px-4">
-                <h2 className="text-lg font-bold text-emerald-600">
-                  Kamus Baduy
-                </h2>
-                <p className="text-sm text-slate-500 italic mb-2">
-                  Flutter, Dart
-                </p>
-                <p className="text-md text-slate-600">
-                  Kamus Baduy adalah aplikasi mobile yang dikembangkan bersama
-                  Dosen Pendidikan Bahasa Inggris yang tujuannya untuk
-                  mempermudah masyarakat adat Suku Baduy dalam berkomunikasi
-                  dengan wisatawan mancanegara
-                </p>
-              </div>
-            </div>
-            <div className="flex flex-col justify-center items-center rounded border border-emerald-100 bg-slate-50 w-full lg:w-1/4 shadow-md">
-              <img
-                src={qudwahqu}
-                className="w-full h-auto object-contain rounded-t"
-                alt=""
-                srcset=""
-              />
-              <div className="flex flex-col py-4 px-4">
-                <h2 className="text-lg font-bold text-emerald-600">QudwahQu</h2>
-                <p className="text-sm text-slate-500 italic mb-2">
-                  Flutter, Dart
-                </p>
-                <p className="text-md text-slate-600">
-                  QudwahQu merupakan aplikasi mobile milik salah satu lembaga
-                  pendidikan yang dikembangkan dengan flutter.
-                </p>
-              </div>
-            </div>
+            <ProjectExpComponent
+              title="Jasper - ERP"
+              lang="Laravel, VueJs"
+              image={jasper}
+            >
+              Jasper adalah aplikasi ERP (Enterprise Resource Planning) yang
+              didalamnya mencakup beberapa modul yang dibutuhkan oleh sebuah
+              perusahaan.
+            </ProjectExpComponent>
+            <ProjectExpComponent
+              title="Siakad Unilam"
+              lang="Laravel"
+              image={siakad_unilam}
+            >
+              Siakad Unilam adalah Sistem Informasi Akademik Universitas La
+              Tansa Mashiro yang merupakan aplikasi penunjang kegiatan akademik
+              di Universitas La Tansa Mashiro.
+            </ProjectExpComponent>
+            <ProjectExpComponent title="Siraja" lang="Laravel" image={siraja}>
+              Siraja (Sistem Informasi Rakyat Sejahtera) adalah sebuah aplikasi
+              analisis data kemiskinan ekstrem yang dikembangkan bersama
+              Pemerintah Kabupaten Lebak
+            </ProjectExpComponent>
+            <ProjectExpComponent
+              title="Kamus Baduy"
+              lang="Flutter, Dart"
+              image={kamus_baduy}
+            >
+              Kamus Baduy adalah aplikasi mobile yang dikembangkan bersama Dosen
+              Pendidikan Bahasa Inggris yang tujuannya untuk mempermudah
+              masyarakat adat Suku Baduy dalam berkomunikasi dengan wisatawan
+              mancanegara
+            </ProjectExpComponent>
+            <ProjectExpComponent
+              title="QudwahQu"
+              lang="Flutter, Dart"
+              image={qudwahqu}
+            >
+              QudwahQu merupakan aplikasi mobile milik salah satu lembaga
+              pendidikan yang dikembangkan dengan flutter.
+            </ProjectExpComponent>
           </div>
         </div>
         {/* Footer */}
