@@ -17,6 +17,11 @@ import {
 } from "react-icons/fa";
 import { FaGithub, FaLinkedin, FaWhatsapp } from "react-icons/fa6";
 import mochdikiwidianto from "../assets/mochdikiwidianto.png";
+import jasper from "../assets/projects/jasper.png";
+import siakad_unilam from "../assets/projects/siakad_unilam.png";
+import siraja from "../assets/projects/siraja.png";
+import kamus_baduy from "../assets/projects/kamus_baduy.png";
+import qudwahqu from "../assets/projects/qudwahqu.png";
 import { RiTailwindCssFill } from "react-icons/ri";
 
 const MainPage = () => {
@@ -128,7 +133,7 @@ const MainPage = () => {
           </div>
         </div>
         {/* Skills */}
-        <div className="flex flex-col justify-center lg:items-center lg:mx-8 lg:my-8 mx-4 my-2">
+        <div className="flex flex-col justify-center lg:items-center lg:mx-8 lg:my-4 mx-4 my-2">
           <h1 className="text-lg font-bold text-emerald-600 mb-8">
             Bahasa Pemrograman / Framework
           </h1>
@@ -273,6 +278,111 @@ const MainPage = () => {
                   <FaStar className="w-4 h-4 text-orange-600" />
                   {/* <FaStar className="w-4 h-4 text-orange-600" /> */}
                   <FaStarHalfAlt className="w-4 h-4 text-orange-600" />
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        {/* Projects */}
+        <div className="flex flex-col justify-center lg:items-center lg:mx-8 lg:my-4 mx-4 my-2">
+          <h1 className="text-lg font-bold text-emerald-600 mb-8">
+            Pengalaman Project / Portofolio Pekerjaan
+          </h1>
+          <div className="flex justify-center items-start gap-4 flex-wrap">
+            <div className="flex flex-col justify-center items-center rounded border border-emerald-100 bg-slate-50 w-full lg:w-1/4 shadow-md">
+              <img
+                src={jasper}
+                className="w-full h-auto object-contain rounded-t"
+                alt=""
+                srcset=""
+              />
+              <div className="flex flex-col py-4 px-4">
+                <h2 className="text-lg font-bold text-emerald-600">
+                  Jasper - ERP
+                </h2>
+                <p className="text-sm text-slate-500 italic mb-2">
+                  Laravel, VueJs
+                </p>
+                <p className="text-md text-slate-600">
+                  Jasper adalah aplikasi ERP (Enterprise Resource Planning) yang
+                  didalamnya mencakup beberapa modul yang dibutuhkan oleh sebuah
+                  perusahaan.
+                </p>
+              </div>
+            </div>
+            <div className="flex flex-col justify-center items-center rounded border border-emerald-100 bg-slate-50 w-full lg:w-1/4 shadow-md">
+              <img
+                src={siakad_unilam}
+                className="w-full h-auto object-contain rounded-t"
+                alt=""
+                srcset=""
+              />
+              <div className="flex flex-col py-4 px-4">
+                <h2 className="text-lg font-bold text-emerald-600">
+                  Siakad Unilam
+                </h2>
+                <p className="text-sm text-slate-500 italic mb-2">Laravel</p>
+                <p className="text-md text-slate-600">
+                  Siakad Unilam adalah Sistem Informasi Akademik Universitas La
+                  Tansa Mashiro yang merupakan aplikasi penunjang kegiatan
+                  akademik di Universitas La Tansa Mashiro.
+                </p>
+              </div>
+            </div>
+            <div className="flex flex-col justify-center items-center rounded border border-emerald-100 bg-slate-50 w-full lg:w-1/4 shadow-md">
+              <img
+                src={siraja}
+                className="w-full h-auto object-contain rounded-t"
+                alt=""
+                srcset=""
+              />
+              <div className="flex flex-col py-4 px-4">
+                <h2 className="text-lg font-bold text-emerald-600">Siraja</h2>
+                <p className="text-sm text-slate-500 italic mb-2">Laravel</p>
+                <p className="text-md text-slate-600">
+                  Siraja (Sistem Informasi Rakyat Sejahtera) adalah sebuah
+                  aplikasi analisis data kemiskinan ekstrem yang dikembangkan
+                  bersama Pemerintah Kabupaten Lebak
+                </p>
+              </div>
+            </div>
+            <div className="flex flex-col justify-center items-center rounded border border-emerald-100 bg-slate-50 w-full lg:w-1/4 shadow-md">
+              <img
+                src={kamus_baduy}
+                className="w-full h-auto object-contain rounded-t"
+                alt=""
+                srcset=""
+              />
+              <div className="flex flex-col py-4 px-4">
+                <h2 className="text-lg font-bold text-emerald-600">
+                  Kamus Baduy
+                </h2>
+                <p className="text-sm text-slate-500 italic mb-2">
+                  Flutter, Dart
+                </p>
+                <p className="text-md text-slate-600">
+                  Kamus Baduy adalah aplikasi mobile yang dikembangkan bersama
+                  Dosen Pendidikan Bahasa Inggris yang tujuannya untuk
+                  mempermudah masyarakat adat Suku Baduy dalam berkomunikasi
+                  dengan wisatawan mancanegara
+                </p>
+              </div>
+            </div>
+            <div className="flex flex-col justify-center items-center rounded border border-emerald-100 bg-slate-50 w-full lg:w-1/4 shadow-md">
+              <img
+                src={qudwahqu}
+                className="w-full h-auto object-contain rounded-t"
+                alt=""
+                srcset=""
+              />
+              <div className="flex flex-col py-4 px-4">
+                <h2 className="text-lg font-bold text-emerald-600">QudwahQu</h2>
+                <p className="text-sm text-slate-500 italic mb-2">
+                  Flutter, Dart
+                </p>
+                <p className="text-md text-slate-600">
+                  QudwahQu merupakan aplikasi mobile milik salah satu lembaga
+                  pendidikan yang dikembangkan dengan flutter.
                 </p>
               </div>
             </div>
