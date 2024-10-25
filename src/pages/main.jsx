@@ -200,7 +200,7 @@ const MainPage = () => {
           <h1 className="text-lg font-bold text-emerald-600 mb-8">
             Portofolio
           </h1>
-          <div className="flex justify-center items-start gap-4 flex-wrap">
+          <div className="flex justify-center items-stretch gap-4 flex-wrap">
             <ProjectExpComponent
               title="Jasper - ERP"
               lang="Laravel, VueJs"

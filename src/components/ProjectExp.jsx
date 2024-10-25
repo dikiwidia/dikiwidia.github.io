@@ -1,7 +1,7 @@
 const ProjectExpComponent = (props) => {
   const { title, lang, image, children } = props;
   return (
-    <div className="flex flex-col justify-center items-center rounded border border-slate-100 bg-slate-50 w-full lg:w-1/4 shadow-md">
+    <div className="flex flex-col items-center rounded border border-slate-100 bg-slate-50 w-full lg:w-1/4 shadow-md">
       <img
         src={image}
         className="w-full h-auto object-contain rounded-t shadow-sm"
