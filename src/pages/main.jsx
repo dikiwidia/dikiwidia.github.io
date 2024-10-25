@@ -12,8 +12,8 @@ import WorkExpComponent from "../components/WorkExp";
 
 const MainPage = () => {
   return (
-    <div className="flex justify-center items-center my-4 mx-4">
-      <div className="container border border-slate-200 rounded-lg">
+    <div className="flex justify-center items-center bg-sky-50">
+      <div className="container border border-slate-200 rounded-lg my-4 mx-4 bg-slate-50">
         {/* Header */}
         <img
           src="https://picsum.photos/1336/400"
@@ -50,7 +50,7 @@ const MainPage = () => {
             <a
               href="https://www.linkedin.com/in/mochdikiwidianto/"
               target="_blank"
-              className="flex justify-start items-center border border-blue-700 text-blue-700 shadow-md hover:bg-blue-700 hover:text-white font-bold py-2 px-4 rounded"
+              className="flex justify-start items-center border border-blue-600 text-blue-600 shadow-md hover:bg-blue-600 hover:text-white font-bold py-2 px-4 rounded"
             >
               <FaLinkedin className="mr-2 w-6 h-6" />
               LinkedIn
