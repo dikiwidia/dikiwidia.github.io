@@ -17,7 +17,9 @@ import {
   FaStarHalfAlt,
   FaVuejs,
 } from "react-icons/fa";
+import { FiFigma } from "react-icons/fi";
 import { RiTailwindCssFill } from "react-icons/ri";
+import { SiMicrosoftexcel, SiMicrosoftword } from "react-icons/si";
 
 const ProgramLangComponent = (props) => {
   const { lang, title, rating } = props;
@@ -84,6 +86,21 @@ const ProgramLangComponent = (props) => {
       programTitle = "Ubuntu Server";
       programLang = <DiUbuntu className="w-16 h-16 text-red-400" />;
       programDesc = "Ubuntu Server, CI/CD, Web Server";
+      break;
+    case "ms-excel":
+      programTitle = "Microsoft Excel";
+      programLang = <SiMicrosoftexcel className="w-16 h-16 text-green-700" />;
+      programDesc = "Microsoft Excel";
+      break;
+    case "ms-word":
+      programTitle = "Microsoft Word";
+      programLang = <SiMicrosoftword className="w-16 h-16 text-blue-700" />;
+      programDesc = "Microsoft Word";
+      break;
+    case "figma":
+      programTitle = "Figma";
+      programLang = <FiFigma className="w-16 h-16 text-blue-400" />;
+      programDesc = "Figma";
       break;
     default:
       programTitle = lang;
