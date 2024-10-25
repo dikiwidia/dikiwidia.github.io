@@ -63,7 +63,7 @@ const MainPage = () => {
             <h1 className="text-lg font-bold mb-4 text-emerald-600">
               Tentang Saya
             </h1>
-            <p className="text-md mb-4 lg:text-left text-justify">
+            <p className="text-md mb-2 lg:text-left text-justify">
               Perkenalkan Saya Moch Diki Widianto dari Rangkasbitung, Banten,
               Indonesia. Saya merupakan seorang <i>fullstack developer</i> yang
               mempelajari bahasa pemrograman secara mandiri mencari informasi
@@ -79,11 +79,11 @@ const MainPage = () => {
             </p>
           </div>
           <div className="flex justify-start items-start flex-wrap lg:w-1/3 w-full lg:mb-0 mb-2">
-            <div className="flex flex-col xl:w-1/2 xl:px-2 xl:my-2 w-full py-1">
+            <div className="flex flex-col xl:w-1/2 w-full xl:py-2 xl:px-2">
               <h1 className="font-bold text-slate-600">Wilayah Negara</h1>
               <p className="text-md">Rangkasbitung, Banten, Indonesia 🇮🇩</p>
             </div>
-            <div className="flex flex-col xl:w-1/2 xl:px-2 xl:my-2 w-full py-1">
+            <div className="flex flex-col xl:w-1/2 w-full xl:py-2 xl:px-2">
               <h1 className="font-bold text-slate-600">Situs Web</h1>
               <a
                 href="https://dikiwidia.github.io"
@@ -94,7 +94,7 @@ const MainPage = () => {
                 <FaExternalLinkAlt className="ml-2 w-4 h-4" />
               </a>
             </div>
-            <div className="flex flex-col xl:w-1/2 xl:px-2 xl:my-2 w-full py-1">
+            <div className="flex flex-col xl:w-1/2 w-full xl:py-2 xl:px-2">
               <h1 className="font-bold text-slate-600">Surat Elektronik</h1>
               <a
                 href="mailto:diki.widianto@unilam.ac.id"
@@ -105,7 +105,7 @@ const MainPage = () => {
                 <FaExternalLinkAlt className="ml-2 w-4 h-4" />
               </a>
             </div>
-            <div className="flex flex-col xl:w-1/2 xl:px-2 xl:my-2 w-full py-1">
+            <div className="flex flex-col xl:w-1/2 w-full xl:py-2 xl:px-2">
               <h1 className="font-bold text-slate-600">GitHub</h1>
               <a
                 href="https://github.com/dikiwidia"
