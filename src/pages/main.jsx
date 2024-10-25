@@ -31,7 +31,7 @@ const MainPage = () => {
             />
           </div>
           <div className="flex flex-col lg:w-1/2 items-center lg:items-start lg:ml-44 lg:pr-16 lg:mt-0 mt-5 lg:mb-0 mb-5">
-            <h1 className="flex items-center gap-2 text-2xl font-bold mb-2 text-center lg:text-left">
+            <h1 className="flex items-center gap-1 text-2xl font-bold mb-2 text-center lg:text-left">
               Moch Diki Widianto
               <span className="text-emerald-600">
                 <MdVerifiedUser className="w-5 h-5" />
@@ -40,22 +40,22 @@ const MainPage = () => {
             <p className="text-md text-center lg:text-left">
               Halo semua, Selamat datang di situsweb portofolio sederhana ini,
               Saya adalah seorang <i>fullstack developer</i> dari Rangkasbitung,
-              Banten, Indonesia 🇮🇩
+              Banten, Indonesia
             </p>
           </div>
           <div className="flex justify-center lg:justify-end items-center gap-1">
             <a
               href="mailto:diki.widianto@unilam.ac.id"
               target="_blank"
-              className="flex justify-start items-center border border-rose-600 text-rose-600 shadow-md hover:bg-rose-600 hover:text-white font-bold py-2 px-4 rounded"
+              className="flex justify-start items-center border border-rose-500 text-rose-500 shadow-md hover:bg-rose-500 hover:text-white font-bold py-2 px-4 rounded"
             >
               <FaEnvelope className="mr-2 w-6 h-6" />
-              Hubungi Saya
+              Surel
             </a>
             <a
               href="https://www.linkedin.com/in/mochdikiwidianto/"
               target="_blank"
-              className="flex justify-start items-center border border-blue-600 text-blue-600 shadow-md hover:bg-blue-600 hover:text-white font-bold py-2 px-4 rounded"
+              className="flex justify-start items-center border border-blue-500 text-blue-500 shadow-md hover:bg-blue-500 hover:text-white font-bold py-2 px-4 rounded"
             >
               <FaLinkedin className="mr-2 w-6 h-6" />
               LinkedIn
@@ -93,10 +93,10 @@ const MainPage = () => {
               <a
                 href="https://dikiwidia.github.io"
                 target="_blank"
-                className="flex items-center text-md text-emerald-700 hover:text-emerald-800"
+                className="flex items-center gap-1 text-md text-emerald-600 hover:text-emerald-700"
               >
                 dikiwidia.github.com
-                <FaExternalLinkAlt className="ml-2 w-4 h-4" />
+                <FaExternalLinkAlt className="w-4 h-4" />
               </a>
             </div>
             <div className="flex flex-col xl:w-1/2 w-full xl:py-2 xl:px-2">
@@ -104,10 +104,10 @@ const MainPage = () => {
               <a
                 href="mailto:diki.widianto@unilam.ac.id"
                 target="_blank"
-                className="flex items-center text-md text-emerald-700 hover:text-emerald-800"
+                className="flex items-center gap-1 text-md text-emerald-600 hover:text-emerald-700"
               >
                 diki.widianto@unilam.ac.id
-                <FaExternalLinkAlt className="ml-2 w-4 h-4" />
+                <FaExternalLinkAlt className="w-4 h-4" />
               </a>
             </div>
             <div className="flex flex-col xl:w-1/2 w-full xl:py-2 xl:px-2">
@@ -115,10 +115,10 @@ const MainPage = () => {
               <a
                 href="https://github.com/dikiwidia"
                 target="_blank"
-                className="flex items-center text-md text-emerald-700 hover:text-emerald-800"
+                className="flex items-center gap-1 text-md text-emerald-600 hover:text-emerald-700"
               >
                 Moch Diki Widianto
-                <FaExternalLinkAlt className="ml-2 w-4 h-4" />
+                <FaExternalLinkAlt className="w-4 h-4" />
               </a>
             </div>
           </div>
