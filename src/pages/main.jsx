@@ -87,7 +87,7 @@ const MainPage = () => {
               terdapat pada halaman ini.
             </p>
           </div>
-          <div className="flex justify-start items-start flex-wrap lg:w-1/3 w-full lg:mb-0 mb-2">
+          <div className="flex justify-start items-start flex-wrap lg:w-1/3 w-full">
             <div className="flex flex-col xl:w-1/2 w-full xl:py-2 xl:px-2">
               <h1 className="font-bold text-slate-600">Wilayah Negara</h1>
               <p className="text-md">Rangkasbitung, Banten, Indonesia 🇮🇩</p>
@@ -128,7 +128,7 @@ const MainPage = () => {
           </div>
         </div>
         {/* Experience */}
-        <div className="flex flex-col justify-center lg:items-center lg:mx-8 lg:my-8 mx-4 my-2">
+        <div className="flex flex-col justify-center lg:items-center lg:mx-8 lg:my-8 mx-4 my-4 mb-8">
           <h1 className="text-lg font-bold text-emerald-600 mb-4">
             Pengalaman Bekerja
           </h1>
@@ -185,7 +185,7 @@ const MainPage = () => {
           </ol>
         </div>
         {/* Certified */}
-        <div className="flex flex-col justify-center lg:items-center lg:mx-8 lg:my-8 mx-4 my-2">
+        <div className="flex flex-col justify-center lg:items-center lg:mx-8 lg:my-8 mx-4 my-4 mb-8">
           <h1 className="text-lg font-bold text-emerald-600 mb-4">
             Sertifikat Kemampuan / Pelatihan
           </h1>
@@ -218,7 +218,7 @@ const MainPage = () => {
           </div>
         </div>
         {/* Projects */}
-        <div className="flex flex-col justify-center lg:items-center lg:mx-8 lg:my-8 mx-4 my-2">
+        <div className="flex flex-col justify-center lg:items-center lg:mx-8 lg:my-8 mx-4 my-4 mb-8">
           <h1 className="text-lg font-bold text-emerald-600 mb-4">
             Portofolio / Proyek Pekerjaan
           </h1>
@@ -276,7 +276,7 @@ const MainPage = () => {
           </div>
         </div>
         {/* Skills */}
-        <div className="flex flex-col justify-center lg:items-center lg:mx-8 lg:my-8 mx-4 my-2">
+        <div className="flex flex-col justify-center lg:items-center lg:mx-8 lg:my-8 mx-4 my-4 mb-8">
           <h1 className="text-lg font-bold text-emerald-600 mb-4">
             Bahasa Pemrograman / Framework / Keahlian
           </h1>
