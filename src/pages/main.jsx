@@ -1,4 +1,4 @@
-import { FaEnvelope, FaExternalLinkAlt, FaSuitcase } from "react-icons/fa";
+import { FaEnvelope, FaExternalLinkAlt } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa6";
 import mochdikiwidianto from "../assets/mochdikiwidianto.png";
 import jasper from "../assets/projects/jasper.png";
@@ -7,10 +7,14 @@ import siraja from "../assets/projects/siraja.png";
 import kamus_baduy from "../assets/projects/kamus_baduy.png";
 import qudwahqu from "../assets/projects/qudwahqu.png";
 import unilam from "../assets/projects/unilam.png";
+import certified1 from "../assets/certificates/certified1.png";
+import certified2 from "../assets/certificates/certified2.png";
+import certified3 from "../assets/certificates/certified3.png";
 import ProgramLangComponent from "../components/ProgramLang";
 import ProjectExpComponent from "../components/ProjectExp";
 import WorkExpComponent from "../components/WorkExp";
 import { MdVerifiedUser } from "react-icons/md";
+import CertificateComponent from "../components/Certificate";
 
 const MainPage = () => {
   return (
@@ -124,11 +128,11 @@ const MainPage = () => {
           </div>
         </div>
         {/* Experience */}
-        <div className="flex flex-col justify-center lg:items-center lg:mx-8 lg:my-4 mx-4 my-2">
-          <h1 className="text-lg font-bold text-emerald-600 mb-8">
+        <div className="flex flex-col justify-center lg:items-center lg:mx-8 lg:my-8 mx-4 my-2">
+          <h1 className="text-lg font-bold text-emerald-600 mb-4">
             Pengalaman Bekerja
           </h1>
-          <ol className="flex flex-col gap-4 border-l-2 border-dashed border-emerald-600 list-decimal list-inside mb-8 pl-8 mx-4 lg:mx-0 xl:w-2/3">
+          <ol className="flex flex-col gap-4 border-l-2 border-dashed border-emerald-600 list-decimal list-inside pl-8 mx-4 lg:mx-0 xl:w-2/3">
             <WorkExpComponent
               title="Fullstack Developer"
               place="Universitas La Tansa Mashiro"
@@ -180,32 +184,42 @@ const MainPage = () => {
             </WorkExpComponent>
           </ol>
         </div>
-        {/* Skills */}
-        <div className="flex flex-col justify-center lg:items-center lg:mx-8 lg:my-4 mx-4 my-2">
-          <h1 className="text-lg font-bold text-emerald-600 mb-8">
-            Bahasa Pemrograman / Framework / Keahlian
+        {/* Certified */}
+        <div className="flex flex-col justify-center lg:items-center lg:mx-8 lg:my-8 mx-4 my-2">
+          <h1 className="text-lg font-bold text-emerald-600 mb-4">
+            Sertifikat Kemampuan / Pelatihan
           </h1>
-          <div className="flex flex-col lg:flex-row lg:flex-wrap justify-center items-center gap-2 mb-8 w-full">
-            <ProgramLangComponent lang="html5" rating={5.0} />
-            <ProgramLangComponent lang="css3" rating={4.5} />
-            <ProgramLangComponent lang="php" rating={5.0} />
-            <ProgramLangComponent lang="js" rating={4.5} />
-            <ProgramLangComponent lang="dart" rating={4.5} />
-            <ProgramLangComponent lang="react" rating={4.0} />
-            <ProgramLangComponent lang="laravel" rating={5.0} />
-            <ProgramLangComponent lang="vuejs" rating={4.0} />
-            <ProgramLangComponent lang="tailwindcss" rating={4.5} />
-            <ProgramLangComponent lang="jquery" rating={4.5} />
-            <ProgramLangComponent lang="bootstrap" rating={4.0} />
-            <ProgramLangComponent lang="ubuntu-server" rating={5.0} />
-            <ProgramLangComponent lang="ms-excel" rating={4.5} />
-            <ProgramLangComponent lang="ms-word" rating={5.0} />
-            <ProgramLangComponent lang="figma" rating={4.0} />
+          <div className="flex justify-center items-stretch gap-4 flex-wrap">
+            <CertificateComponent
+              title="Sertifikat Javascript dan Node.js"
+              lang="Course-Net Indonesia"
+              link="https://coursenet.s3.ap-southeast-3.amazonaws.com/Course-Net/CompletionCertificateMoch%20Diki%20Widianto-111141.pdf"
+              image={certified1}
+            >
+              Teknik Pembuatan Aplikasi menggunakan Javascript dan Node.js bagi
+              Javascript Engineer sebagai Programer Aplikasi
+            </CertificateComponent>
+            <CertificateComponent
+              title="Sertifikat Database SQL"
+              lang="Course-Net Indonesia"
+              link="https://coursenet.s3.ap-southeast-3.amazonaws.com/Course-Net/CompletionCertificateMoch%20Diki%20Widianto-110930.pdf"
+              image={certified2}
+            >
+              Merancang Database dan Membangun Karir Data Engineer
+            </CertificateComponent>
+            <CertificateComponent
+              title="Sertifikat Kotlin"
+              lang="Dicoding Indonesia"
+              link="https://1drv.ms/b/s!AtKg0q7P7W25sWvMdK2lwvaFz6Vh?e=iWN9Wf"
+              image={certified3}
+            >
+              Memulai Pemrograman dengan Kotlin
+            </CertificateComponent>
           </div>
         </div>
         {/* Projects */}
-        <div className="flex flex-col justify-center lg:items-center lg:mx-8 lg:my-4 mx-4 my-2">
-          <h1 className="text-lg font-bold text-emerald-600 mb-8">
+        <div className="flex flex-col justify-center lg:items-center lg:mx-8 lg:my-8 mx-4 my-2">
+          <h1 className="text-lg font-bold text-emerald-600 mb-4">
             Portofolio / Proyek Pekerjaan
           </h1>
           <div className="flex justify-center items-stretch gap-4 flex-wrap">
@@ -261,8 +275,31 @@ const MainPage = () => {
             </ProjectExpComponent>
           </div>
         </div>
+        {/* Skills */}
+        <div className="flex flex-col justify-center lg:items-center lg:mx-8 lg:my-8 mx-4 my-2">
+          <h1 className="text-lg font-bold text-emerald-600 mb-4">
+            Bahasa Pemrograman / Framework / Keahlian
+          </h1>
+          <div className="flex flex-col lg:flex-row lg:flex-wrap justify-center items-center gap-2 mb-8 w-full">
+            <ProgramLangComponent lang="html5" rating={5.0} />
+            <ProgramLangComponent lang="css3" rating={4.5} />
+            <ProgramLangComponent lang="php" rating={5.0} />
+            <ProgramLangComponent lang="js" rating={4.5} />
+            <ProgramLangComponent lang="dart" rating={4.5} />
+            <ProgramLangComponent lang="react" rating={4.0} />
+            <ProgramLangComponent lang="laravel" rating={5.0} />
+            <ProgramLangComponent lang="vuejs" rating={4.0} />
+            <ProgramLangComponent lang="tailwindcss" rating={4.5} />
+            <ProgramLangComponent lang="jquery" rating={4.5} />
+            <ProgramLangComponent lang="bootstrap" rating={4.0} />
+            <ProgramLangComponent lang="ubuntu-server" rating={5.0} />
+            <ProgramLangComponent lang="ms-excel" rating={4.5} />
+            <ProgramLangComponent lang="ms-word" rating={5.0} />
+            <ProgramLangComponent lang="figma" rating={4.0} />
+          </div>
+        </div>
         {/* Footer */}
-        <div className="flex justify-center items-center mx-8 lg:my-4  border-t-2 border-slate-100 py-4">
+        <div className="flex justify-center items-center mx-8 lg:my-8  border-t-2 border-slate-100 py-4">
           <p className="text-sm text-slate-500">
             Hak Cipta &copy; {new Date().getFullYear()} Moch Diki Widianto
           </p>

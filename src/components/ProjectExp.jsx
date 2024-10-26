@@ -8,7 +8,7 @@ const ProjectExpComponent = (props) => {
         alt=""
         srcset=""
       />
-      <div className="flex flex-col py-4 px-4">
+      <div className="flex flex-col w-full py-4 px-4">
         <h2 className="text-lg font-bold text-emerald-600">{title}</h2>
         <p className="text-sm text-slate-500 italic mb-2">{lang}</p>
         <p className="text-md text-slate-600">{children}</p>
