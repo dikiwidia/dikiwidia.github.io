@@ -1,6 +1,6 @@
 import { FaEnvelope, FaExternalLinkAlt } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa6";
-import mochdikiwidianto from "../assets/mochdikiwidianto.png";
+import mochdikiwidianto from "../assets/mochdikiwidianto_fix.png";
 import jasper from "../assets/projects/jasper.png";
 import siakad_unilam from "../assets/projects/siakad_unilam.png";
 import siraja from "../assets/projects/siraja.png";
