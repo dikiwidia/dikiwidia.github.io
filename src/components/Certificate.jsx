@@ -7,7 +7,7 @@ const CertificateComponent = (props) => {
       <img
         src={image}
         className="w-full h-auto object-contain rounded-t shadow-sm"
-        alt={title}
+        alt=""
       />
       <div className="flex flex-col py-4 px-4 w-full h-full">
         <h2 className="text-lg font-bold text-emerald-600">{title}</h2>

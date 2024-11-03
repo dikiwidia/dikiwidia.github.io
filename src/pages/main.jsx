@@ -1,5 +1,5 @@
 import { FaEnvelope, FaExternalLinkAlt } from "react-icons/fa";
-import { FaLinkedin } from "react-icons/fa6";
+import { FaGithub, FaLinkedin } from "react-icons/fa6";
 import mochdikiwidianto from "../assets/mochdikiwidianto_fix.png";
 import jasper from "../assets/projects/jasper.png";
 import siakad_unilam from "../assets/projects/siakad_unilam.png";
@@ -31,7 +31,7 @@ const MainPage = () => {
             <img
               src={mochdikiwidianto}
               alt=""
-              className="rounded-full w-40 h-40 object-cover bg-slate-300"
+              className="rounded-full w-40 h-40 object-cover bg-slate-300 border-2 border-slate-50"
             />
           </div>
           <div className="flex flex-col lg:w-1/2 items-center lg:items-start lg:ml-44 lg:pr-16 lg:mt-0 mt-5 lg:mb-0 mb-5">
@@ -42,24 +42,24 @@ const MainPage = () => {
               </span>
             </h1>
             <p className="text-md text-center lg:text-left">
-              Halo semua, Selamat datang di situsweb portofolio sederhana ini,
+              Halo semua, Selamat datang di situs web portofolio sederhana ini,
               Saya adalah seorang <i>fullstack developer</i> dari Rangkasbitung,
               Banten, Indonesia
             </p>
           </div>
           <div className="flex justify-center lg:justify-end items-center gap-1">
             <a
-              href="mailto:diki.widianto@unilam.ac.id"
+              href="https://github.com/dikiwidia"
               target="_blank"
-              className="flex justify-start items-center border border-rose-500 text-rose-500 shadow-md hover:bg-rose-500 hover:text-white font-bold py-2 px-4 rounded"
+              className="flex justify-start items-center border border-slate-700 text-slate-700 shadow-md hover:bg-slate-700 hover:text-white font-bold py-2 px-4 rounded"
             >
-              <FaEnvelope className="mr-2 w-6 h-6" />
-              Surel
+              <FaGithub className="mr-2 w-6 h-6" />
+              GitHub
             </a>
             <a
               href="https://www.linkedin.com/in/mochdikiwidianto/"
               target="_blank"
-              className="flex justify-start items-center border border-blue-500 text-blue-500 shadow-md hover:bg-blue-500 hover:text-white font-bold py-2 px-4 rounded"
+              className="flex justify-start items-center border border-blue-800 text-blue-800 shadow-md hover:bg-blue-800 hover:text-white font-bold py-2 px-4 rounded"
             >
               <FaLinkedin className="mr-2 w-6 h-6" />
               LinkedIn
@@ -176,7 +176,7 @@ const MainPage = () => {
             </WorkExpComponent>
             <WorkExpComponent
               title="IT Support Staff"
-              place="Perguruan Tingi La Tansa Mashiro"
+              place="Perguruan Tinggi La Tansa Mashiro"
               desc="Jan 2016 - Mar 2019, Rangkasbitung, Banten, Indonesia"
             >
               Bertanggung jawab dalam troubleshooting dan maintenance jaringan
@@ -299,35 +299,9 @@ const MainPage = () => {
           </div>
         </div>
         {/* Footer */}
-        <div className="flex justify-center items-center mx-8 lg:my-8  border-t-2 border-slate-100 py-4">
+        <div className="flex justify-center items-center mx-8 border-t-2 border-slate-100 py-4">
           <p className="text-sm text-slate-500">
             Hak Cipta &copy; {new Date().getFullYear()} Moch Diki Widianto
-            <script type="text/javascript">
-              var sc_project = 13057482; var sc_invisible = 0; var sc_security =
-              "60322db0"; var scJsHost = "https://"; document.write( "
-              <script
-                type="text/javascript"
-                src="https://statcounter.com/counter/counter.js"
-              ></script>
-              " );
-            </script>
-            <noscript>
-              <div class="statcounter">
-                <a
-                  title="Web Analytics Made Easy -
-  Statcounter"
-                  href="https://statcounter.com/"
-                  target="_blank"
-                >
-                  <img
-                    class="statcounter"
-                    src="https://c.statcounter.com/13057482/0/60322db0/0/"
-                    alt="Web Analytics Made Easy - Statcounter"
-                    referrerpolicy="no-referrer-when-downgrade"
-                  />
-                </a>
-              </div>
-            </noscript>
           </p>
         </div>
       </div>
