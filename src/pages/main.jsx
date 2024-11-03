@@ -302,6 +302,32 @@ const MainPage = () => {
         <div className="flex justify-center items-center mx-8 lg:my-8  border-t-2 border-slate-100 py-4">
           <p className="text-sm text-slate-500">
             Hak Cipta &copy; {new Date().getFullYear()} Moch Diki Widianto
+            <script type="text/javascript">
+              var sc_project = 13057482; var sc_invisible = 0; var sc_security =
+              "60322db0"; var scJsHost = "https://"; document.write( "
+              <script
+                type="text/javascript"
+                src="https://statcounter.com/counter/counter.js"
+              ></script>
+              " );
+            </script>
+            <noscript>
+              <div class="statcounter">
+                <a
+                  title="Web Analytics Made Easy -
+  Statcounter"
+                  href="https://statcounter.com/"
+                  target="_blank"
+                >
+                  <img
+                    class="statcounter"
+                    src="https://c.statcounter.com/13057482/0/60322db0/0/"
+                    alt="Web Analytics Made Easy - Statcounter"
+                    referrerpolicy="no-referrer-when-downgrade"
+                  />
+                </a>
+              </div>
+            </noscript>
           </p>
         </div>
       </div>

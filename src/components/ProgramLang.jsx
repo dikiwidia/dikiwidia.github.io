@@ -112,14 +112,14 @@ const ProgramLangComponent = (props) => {
   const roundingRate = Math.floor(rating);
   const star = [];
   for (let i = 1; i <= 5; i++) {
-    let elem = <FaRegStar className="w-4 h-4 text-orange-500" />;
+    let elem = <FaRegStar key={i} className="w-4 h-4 text-orange-500" />;
     if (roundingRate >= 0) {
       const realRoundRate = roundingRate > 5 ? 5 : roundingRate;
       if (i <= realRoundRate) {
-        elem = <FaStar className="w-4 h-4 text-orange-500" />;
+        elem = <FaStar key={i} className="w-4 h-4 text-orange-500" />;
       } else {
         if (realRoundRate !== 5 && rating - roundingRate > 0) {
-          elem = <FaStarHalfAlt className="w-4 h-4 text-orange-500" />;
+          elem = <FaStarHalfAlt key={i} className="w-4 h-4 text-orange-500" />;
         }
       }
     }
