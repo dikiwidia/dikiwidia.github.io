@@ -19,7 +19,7 @@ import CertificateComponent from "../components/Certificate";
 const MainPage = () => {
   return (
     <div className="flex justify-center items-center bg-sky-50">
-      <div className="container border border-slate-200 rounded-lg my-4 mx-4 bg-slate-50">
+      <div className="container border border-slate-200 rounded-lg my-2 mx-2 bg-slate-50">
         {/* Header */}
         <img
           src="https://picsum.photos/1336/400"
@@ -153,7 +153,7 @@ const MainPage = () => {
               code) hasil pekerjaan anggota tim dan melaporkan progress kinerja
               mingguan. Manajemen kode sumber dan basis data di server lokal dan
               repository git. Membuat mockup untuk modul yang akan dibuat dan
-              dikembangkan berdasarkan analisa kebutuhan user dari QA
+              dikembangkan berdasarkan analisa kebutuhan user dari QA.
             </WorkExpComponent>
             <WorkExpComponent
               title="Fullstack Staff"
