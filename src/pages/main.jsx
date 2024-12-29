@@ -10,6 +10,7 @@ import unilam from "../assets/projects/unilam.png";
 import certified1 from "../assets/certificates/certified1.png";
 import certified2 from "../assets/certificates/certified2.png";
 import certified3 from "../assets/certificates/certified3.png";
+import certified4 from "../assets/certificates/certified4.png";
 import ProgramLangComponent from "../components/ProgramLang";
 import ProjectExpComponent from "../components/ProjectExp";
 import WorkExpComponent from "../components/WorkExp";
@@ -37,7 +38,7 @@ const MainPage = () => {
           <div className="flex flex-col lg:w-1/2 items-center lg:items-start lg:ml-44 lg:pr-16 lg:mt-0 mt-5 lg:mb-0 mb-5">
             <h1 className="flex items-center gap-1 text-2xl font-bold mb-2 text-center lg:text-left">
               Moch Diki Widianto
-              <span className="text-emerald-600">
+              <span className="text-sky-600">
                 <MdVerifiedUser className="w-5 h-5" />
               </span>
             </h1>
@@ -69,7 +70,7 @@ const MainPage = () => {
         {/* Profile */}
         <div className="flex flex-col lg:flex-row lg:justify-between items-start mx-4 lg:mx-8 mt-8 mb-8">
           <div className="flex flex-col justify-start lg:w-2/3 w-full lg:pr-16 pr-0 lg:mb-0 mb-2">
-            <h1 className="text-lg font-bold mb-2 text-emerald-600">
+            <h1 className="text-xl font-bold mb-2 text-teal-600">
               Tentang Saya
             </h1>
             <p className="text-md mb-2 lg:text-left text-justify">
@@ -97,10 +98,10 @@ const MainPage = () => {
               <a
                 href="https://dikiwidia.github.io"
                 target="_blank"
-                className="flex items-center gap-1 text-md text-emerald-600 hover:text-emerald-700"
+                className="flex items-center gap-1 text-md text-sky-600 hover:text-sky-700"
               >
                 dikiwidia.github.com
-                <FaExternalLinkAlt className="w-4 h-4" />
+                <FaExternalLinkAlt className="w-3 h-3" />
               </a>
             </div>
             <div className="flex flex-col xl:w-1/2 w-full xl:py-2 xl:px-2">
@@ -108,10 +109,10 @@ const MainPage = () => {
               <a
                 href="mailto:diki.widianto@unilam.ac.id"
                 target="_blank"
-                className="flex items-center gap-1 text-md text-emerald-600 hover:text-emerald-700"
+                className="flex items-center gap-1 text-md text-sky-600 hover:text-sky-700"
               >
                 diki.widianto@unilam.ac.id
-                <FaExternalLinkAlt className="w-4 h-4" />
+                <FaExternalLinkAlt className="w-3 h-3" />
               </a>
             </div>
             <div className="flex flex-col xl:w-1/2 w-full xl:py-2 xl:px-2">
@@ -119,20 +120,20 @@ const MainPage = () => {
               <a
                 href="https://github.com/dikiwidia"
                 target="_blank"
-                className="flex items-center gap-1 text-md text-emerald-600 hover:text-emerald-700"
+                className="flex items-center gap-1 text-md text-sky-600 hover:text-sky-700"
               >
                 Moch Diki Widianto
-                <FaExternalLinkAlt className="w-4 h-4" />
+                <FaExternalLinkAlt className="w-3 h-3" />
               </a>
             </div>
           </div>
         </div>
         {/* Experience */}
         <div className="flex flex-col justify-center lg:items-center lg:mx-8 lg:my-8 mx-4 my-4 mb-8">
-          <h1 className="text-lg font-bold text-emerald-600 mb-4">
+          <h1 className="text-xl font-bold text-teal-600 mb-4">
             Pengalaman Bekerja
           </h1>
-          <ol className="flex flex-col gap-4 border-l-2 border-dashed border-emerald-600 list-decimal list-inside pl-8 mx-4 lg:mx-0 xl:w-2/3">
+          <ol className="flex flex-col gap-4 border-l-2 border-dashed border-teal-600 list-decimal list-inside pl-8 mx-4 lg:mx-0 xl:w-2/3">
             <WorkExpComponent
               title="Fullstack Developer"
               place="Universitas La Tansa Mashiro"
@@ -186,10 +187,10 @@ const MainPage = () => {
         </div>
         {/* Certified */}
         <div className="flex flex-col justify-center lg:items-center lg:mx-8 lg:my-8 mx-4 my-4 mb-8">
-          <h1 className="text-lg font-bold text-emerald-600 mb-4">
+          <h1 className="text-xl font-bold text-teal-600 mb-4">
             Sertifikat Kemampuan / Pelatihan
           </h1>
-          <div className="flex justify-center items-stretch gap-4 flex-wrap">
+          <div className="flex justify-center flex-wrap">
             <CertificateComponent
               title="Sertifikat Javascript dan Node.js"
               lang="Course-Net Indonesia"
@@ -215,14 +216,22 @@ const MainPage = () => {
             >
               Memulai Pemrograman dengan Kotlin
             </CertificateComponent>
+            <CertificateComponent
+              title="Sertifikat Cyber Security"
+              lang="BSSN"
+              link="https://1drv.ms/b/c/b96dedcfaed2a0d2/ERxwV5ksOn1IhwmJ0tbQE6wBq13_ao77oHV4ggu1hup4FQ?e=IIyau7"
+              image={certified4}
+            >
+              Cyber Security Workshop Sektor Pendidikan
+            </CertificateComponent>
           </div>
         </div>
         {/* Projects */}
         <div className="flex flex-col justify-center lg:items-center lg:mx-8 lg:my-8 mx-4 my-4 mb-8">
-          <h1 className="text-lg font-bold text-emerald-600 mb-4">
+          <h1 className="text-xl font-bold text-teal-600 mb-4">
             Portofolio / Proyek Pekerjaan
           </h1>
-          <div className="flex justify-center items-stretch gap-4 flex-wrap">
+          <div className="flex justify-center flex-wrap">
             <ProjectExpComponent
               title="Jasper - ERP"
               lang="Laravel, VueJs"
@@ -277,7 +286,7 @@ const MainPage = () => {
         </div>
         {/* Skills */}
         <div className="flex flex-col justify-center lg:items-center lg:mx-8 lg:my-8 mx-4 my-4 mb-8">
-          <h1 className="text-lg font-bold text-emerald-600 mb-4">
+          <h1 className="text-xl font-bold text-teal-600 mb-4">
             Bahasa Pemrograman / Framework / Keahlian
           </h1>
           <div className="flex flex-col lg:flex-row lg:flex-wrap justify-center items-center gap-2 mb-8 w-full">
