@@ -1,4 +1,10 @@
-import { FaEnvelope, FaExternalLinkAlt } from "react-icons/fa";
+import {
+  FaEnvelope,
+  FaExternalLinkAlt,
+  FaLightbulb,
+  FaYoutube,
+  FaYoutubeSquare,
+} from "react-icons/fa";
 import { FaGithub, FaLinkedin } from "react-icons/fa6";
 import mochdikiwidianto from "../assets/mochdikiwidianto_fix.png";
 import jasper from "../assets/projects/jasper.png";
@@ -14,14 +20,43 @@ import certified4 from "../assets/certificates/certified4.png";
 import ProgramLangComponent from "../components/ProgramLang";
 import ProjectExpComponent from "../components/ProjectExp";
 import WorkExpComponent from "../components/WorkExp";
-import { MdVerifiedUser } from "react-icons/md";
+import {
+  MdOutlineDarkMode,
+  MdOutlineLightMode,
+  MdVerifiedUser,
+} from "react-icons/md";
 import CertificateComponent from "../components/Certificate";
+import { useState } from "react";
 
 const MainPage = () => {
+  const [isDarkMode, setIsDarkMode] = useState(false);
+
+  const toggleDarkMode = () => {
+    setIsDarkMode(!isDarkMode);
+  };
+
   return (
     <div className="flex justify-center items-center bg-sky-50">
       <div className="container border border-slate-200 rounded-lg my-2 mx-2 bg-slate-50">
         {/* Header */}
+        {/* <div className="relative">
+          <div className="absolute top-0 right-0">
+            <button
+              className="flex justify-start items-center gap-1 text-slate-100 hover:text-slate-200 font-bold py-1 px-2 bg-slate-600 opacity-70 rounded-tr-lg rounded-bl-lg"
+              onClick={() => toggleDarkMode()}
+            >
+              {isDarkMode ? (
+                <>
+                  <MdOutlineDarkMode className="w-5 h-5" />
+                </>
+              ) : (
+                <>
+                  <MdOutlineLightMode className="w-5 h-5" />
+                </>
+              )}
+            </button>
+          </div>
+        </div> */}
         <img
           src="https://picsum.photos/1336/400"
           alt="Picture"
@@ -38,7 +73,7 @@ const MainPage = () => {
           <div className="flex flex-col lg:w-1/2 items-center lg:items-start lg:ml-44 lg:pr-16 lg:mt-0 mt-5 lg:mb-0 mb-5">
             <h1 className="flex items-center gap-1 text-2xl font-bold mb-2 text-center lg:text-left">
               Moch Diki Widianto
-              <span className="text-sky-600">
+              <span className="text-teal-600">
                 <MdVerifiedUser className="w-5 h-5" />
               </span>
             </h1>
@@ -48,22 +83,30 @@ const MainPage = () => {
               Banten, Indonesia
             </p>
           </div>
-          <div className="flex justify-center lg:justify-end items-center gap-1">
+          <div className="flex justify-center lg:justify-end items-center gap-1 text-sm">
             <a
               href="https://github.com/dikiwidia"
               target="_blank"
-              className="flex justify-start items-center border border-slate-700 text-slate-700 shadow-md hover:bg-slate-700 hover:text-white font-bold py-2 px-4 rounded"
+              className="flex justify-start items-center border gap-1 border-slate-700 text-slate-700 shadow-md hover:bg-slate-700 hover:text-white font-bold py-2 px-4 rounded"
             >
-              <FaGithub className="mr-2 w-6 h-6" />
+              <FaGithub className="w-5 h-5" />
               GitHub
             </a>
             <a
               href="https://www.linkedin.com/in/mochdikiwidianto/"
               target="_blank"
-              className="flex justify-start items-center border border-blue-800 text-blue-800 shadow-md hover:bg-blue-800 hover:text-white font-bold py-2 px-4 rounded"
+              className="flex justify-start items-center border gap-1 border-blue-800 text-blue-800 shadow-md hover:bg-blue-800 hover:text-white font-bold py-2 px-4 rounded"
             >
-              <FaLinkedin className="mr-2 w-6 h-6" />
+              <FaLinkedin className="w-5 h-5" />
               LinkedIn
+            </a>
+            <a
+              href="https://www.youtube.com/@baduytechsolutions7020"
+              target="_blank"
+              className="flex justify-start items-center border gap-1 border-red-600 text-red-600 shadow-md hover:bg-red-600 hover:text-white font-bold py-2 px-4 rounded"
+            >
+              <FaYoutube className="w-5 h-5" />
+              YouTube
             </a>
           </div>
         </div>
@@ -98,7 +141,7 @@ const MainPage = () => {
               <a
                 href="https://dikiwidia.github.io"
                 target="_blank"
-                className="flex items-center gap-1 text-md text-sky-600 hover:text-sky-700"
+                className="flex items-center gap-1 text-md text-teal-600 hover:text-teal-700"
               >
                 dikiwidia.github.com
                 <FaExternalLinkAlt className="w-3 h-3" />
@@ -109,7 +152,7 @@ const MainPage = () => {
               <a
                 href="mailto:diki.widianto@unilam.ac.id"
                 target="_blank"
-                className="flex items-center gap-1 text-md text-sky-600 hover:text-sky-700"
+                className="flex items-center gap-1 text-md text-teal-600 hover:text-teal-700"
               >
                 diki.widianto@unilam.ac.id
                 <FaExternalLinkAlt className="w-3 h-3" />
@@ -120,7 +163,7 @@ const MainPage = () => {
               <a
                 href="https://github.com/dikiwidia"
                 target="_blank"
-                className="flex items-center gap-1 text-md text-sky-600 hover:text-sky-700"
+                className="flex items-center gap-1 text-md text-teal-600 hover:text-teal-700"
               >
                 Moch Diki Widianto
                 <FaExternalLinkAlt className="w-3 h-3" />
