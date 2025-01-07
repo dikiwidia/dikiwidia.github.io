@@ -1,12 +1,7 @@
-import {
-  FaEnvelope,
-  FaExternalLinkAlt,
-  FaLightbulb,
-  FaYoutube,
-  FaYoutubeSquare,
-} from "react-icons/fa";
+import { FaExternalLinkAlt, FaYoutube } from "react-icons/fa";
 import { FaGithub, FaLinkedin } from "react-icons/fa6";
 import mochdikiwidianto from "../assets/mochdikiwidianto_fix.png";
+import background_header from "../assets/background_header.png";
 import jasper from "../assets/projects/jasper.png";
 import siakad_unilam from "../assets/projects/siakad_unilam.png";
 import siraja from "../assets/projects/siraja.png";
@@ -58,8 +53,8 @@ const MainPage = () => {
           </div>
         </div> */}
         <img
-          src="https://picsum.photos/1336/400"
-          alt="Picture"
+          src={background_header}
+          alt="Background Header"
           className="w-full h-48 object-cover rounded-t-lg"
         />
         <div className="flex flex-col justify-start lg:flex-row lg:justify-between lg:items-start lg:my-8 lg:mx-8 my-4 mx-4 lg:relative">
