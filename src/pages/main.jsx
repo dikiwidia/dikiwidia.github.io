@@ -29,7 +29,7 @@ const MainPage = () => {
 
   return (
     <div className="flex justify-center items-center bg-sky-50">
-      <div className="container border border-slate-200 rounded-lg my-2 mx-2 bg-slate-50">
+      <div className="container border border-slate-200 rounded my-2 mx-2 bg-slate-50">
         {/* Header */}
         {/* <div className="relative">
           <div className="absolute top-0 right-0">
@@ -52,7 +52,7 @@ const MainPage = () => {
         <img
           src={background_header}
           alt="Background Header"
-          className="w-full h-48 object-cover rounded-t-lg"
+          className="w-full h-48 object-cover rounded-t"
         />
         <div className="flex flex-col justify-start lg:flex-row lg:justify-between lg:items-start lg:my-8 lg:mx-8 my-4 mx-4 lg:relative">
           <div className="-mt-28 mx-auto lg:mt-0 lg:absolute lg:left-0 lg:-top-28">
