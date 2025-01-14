@@ -8,6 +8,7 @@ import siraja from "../assets/projects/siraja.png";
 import kamus_baduy from "../assets/projects/kamus_baduy.png";
 import qudwahqu from "../assets/projects/qudwahqu.png";
 import unilam from "../assets/projects/unilam.png";
+import tabel_perkalian from "../assets/projects/tabel_perkalian.png";
 import certified1 from "../assets/certificates/certified1.png";
 import certified2 from "../assets/certificates/certified2.png";
 import certified3 from "../assets/certificates/certified3.png";
@@ -15,11 +16,7 @@ import certified4 from "../assets/certificates/certified4.png";
 import ProgramLangComponent from "../components/ProgramLang";
 import ProjectExpComponent from "../components/ProjectExp";
 import WorkExpComponent from "../components/WorkExp";
-import {
-  MdOutlineDarkMode,
-  MdOutlineLightMode,
-  MdVerifiedUser,
-} from "react-icons/md";
+import { MdVerifiedUser } from "react-icons/md";
 import CertificateComponent from "../components/Certificate";
 import { useState } from "react";
 
@@ -278,6 +275,15 @@ const MainPage = () => {
               Jasper adalah aplikasi ERP (Enterprise Resource Planning) yang
               didalamnya mencakup beberapa modul yang dibutuhkan oleh sebuah
               perusahaan.
+              <br /> [
+              <a
+                href="https://jasper.blkp.co.id/"
+                target="_blank"
+                className="text-sm text-sky-600 hover:text-emerald-600"
+              >
+                Lihat Project
+              </a>
+              ]
             </ProjectExpComponent>
             <ProjectExpComponent
               title="Siakad Unilam"
@@ -287,11 +293,29 @@ const MainPage = () => {
               Siakad Unilam adalah Sistem Informasi Akademik Universitas La
               Tansa Mashiro yang merupakan aplikasi penunjang kegiatan akademik
               di Universitas La Tansa Mashiro.
+              <br /> [
+              <a
+                href="https://siakad.unilam.ac.id/"
+                target="_blank"
+                className="text-sm text-sky-600 hover:text-emerald-600"
+              >
+                Lihat Project
+              </a>
+              ]
             </ProjectExpComponent>
             <ProjectExpComponent title="Siraja" lang="Laravel" image={siraja}>
               Siraja (Sistem Informasi Rakyat Sejahtera) adalah sebuah aplikasi
               analisis data kemiskinan ekstrem yang dikembangkan bersama
-              Pemerintah Kabupaten Lebak
+              Pemerintah Kabupaten Lebak.
+              <br /> [
+              <a
+                href="https://siraja.lebakkab.go.id/"
+                target="_blank"
+                className="text-sm text-sky-600 hover:text-emerald-600"
+              >
+                Lihat Project
+              </a>
+              ]
             </ProjectExpComponent>
             <ProjectExpComponent
               title="Kamus Baduy"
@@ -301,7 +325,16 @@ const MainPage = () => {
               Kamus Baduy adalah aplikasi mobile yang dikembangkan bersama Dosen
               Pendidikan Bahasa Inggris yang tujuannya untuk mempermudah
               masyarakat adat Suku Baduy dalam berkomunikasi dengan wisatawan
-              mancanegara
+              mancanegara.
+              <br /> [
+              <a
+                href="https://play.google.com/store/apps/details?id=id.ac.unilam.kamusbaduy&pcampaignid=web_share"
+                target="_blank"
+                className="text-sm text-sky-600 hover:text-emerald-600"
+              >
+                Lihat Project
+              </a>
+              ]
             </ProjectExpComponent>
             <ProjectExpComponent
               title="QudwahQu"
@@ -310,6 +343,15 @@ const MainPage = () => {
             >
               QudwahQu merupakan aplikasi mobile milik salah satu lembaga
               pendidikan yang dikembangkan dengan flutter.
+              <br /> [
+              <a
+                href="https://play.google.com/store/apps/details?id=id.alqudwah.apps&pcampaignid=web_share"
+                target="_blank"
+                className="text-sm text-sky-600 hover:text-emerald-600"
+              >
+                Lihat Project
+              </a>
+              ]
             </ProjectExpComponent>
             <ProjectExpComponent
               title="Website Unilam"
@@ -318,7 +360,34 @@ const MainPage = () => {
             >
               Official Website Universitas La Tansa Mashiro yang berfungsi
               sebagai media informasi dan berita terkini seputar Universitas La
-              Tansa Mashiro
+              Tansa Mashiro.
+              <br /> [
+              <a
+                href="https://unilam.ac.id"
+                target="_blank"
+                className="text-sm text-sky-600 hover:text-emerald-600"
+              >
+                Lihat Project
+              </a>
+              ]
+            </ProjectExpComponent>
+            <ProjectExpComponent
+              title="Tabel Perkalian"
+              lang="ReactJs, TailwindCss"
+              image={tabel_perkalian}
+            >
+              Ini adalah tabel perkalian yang dibuat dengan ReactJs dan
+              Tailwind. Sangat bagus digunakan untuk anak-anak dalam belajar
+              menghapal perkalian.
+              <br /> [
+              <a
+                href="https://dikiwidia.github.io/tabel-perkalian"
+                target="_blank"
+                className="text-sm text-sky-600 hover:text-emerald-600"
+              >
+                Lihat Project
+              </a>
+              ]
             </ProjectExpComponent>
           </div>
         </div>
