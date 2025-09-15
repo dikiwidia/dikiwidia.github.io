@@ -18,8 +18,11 @@ import {
   FaVuejs,
 } from "react-icons/fa";
 import { FiFigma } from "react-icons/fi";
-import { RiTailwindCssFill } from "react-icons/ri";
-import { SiMicrosoftexcel, SiMicrosoftword } from "react-icons/si";
+import {
+  RiFileExcel2Fill,
+  RiFileWord2Fill,
+  RiTailwindCssFill,
+} from "react-icons/ri";
 
 const ProgramLangComponent = (props) => {
   const { lang, title, rating } = props;
@@ -89,12 +92,12 @@ const ProgramLangComponent = (props) => {
       break;
     case "ms-excel":
       programTitle = "Microsoft Excel";
-      programLang = <SiMicrosoftexcel className="w-16 h-16 text-green-700" />;
+      programLang = <RiFileExcel2Fill className="w-16 h-16 text-green-700" />;
       programDesc = "Microsoft Excel";
       break;
     case "ms-word":
       programTitle = "Microsoft Word";
-      programLang = <SiMicrosoftword className="w-16 h-16 text-blue-700" />;
+      programLang = <RiFileWord2Fill className="w-16 h-16 text-blue-700" />;
       programDesc = "Microsoft Word";
       break;
     case "figma":

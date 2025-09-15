@@ -1,6 +1,6 @@
 import { FaExternalLinkAlt, FaYoutube } from "react-icons/fa";
 import { FaGithub, FaLinkedin } from "react-icons/fa6";
-import mochdikiwidianto from "../assets/mochdikiwidianto_fix.png";
+import mochdikiwidianto from "../assets/mochdikiwidianto_updated.png";
 import background_header from "../assets/background_header.png";
 import jasper from "../assets/projects/jasper.png";
 import siakad_unilam from "../assets/projects/siakad_unilam.png";
@@ -18,15 +18,8 @@ import ProjectExpComponent from "../components/ProjectExp";
 import WorkExpComponent from "../components/WorkExp";
 import { MdVerifiedUser } from "react-icons/md";
 import CertificateComponent from "../components/Certificate";
-import { useState } from "react";
 
 const MainPage = () => {
-  const [isDarkMode, setIsDarkMode] = useState(false);
-
-  const toggleDarkMode = () => {
-    setIsDarkMode(!isDarkMode);
-  };
-
   return (
     <div className="flex justify-center items-center bg-sky-50">
       <div className="container border border-slate-200 rounded my-2 mx-2 bg-slate-50">
