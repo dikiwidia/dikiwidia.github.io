@@ -86,7 +86,7 @@ const MainPage = () => {
               LinkedIn
             </a>
             <a
-              href="https://www.youtube.com/@baduytechsolutions7020"
+              href="https://www.youtube.com/@TemanNgodingUnilam"
               target="_blank"
               className="flex justify-start items-center border gap-1 border-red-600 text-red-600 shadow-md hover:bg-red-600 hover:text-white font-bold py-2 px-4 rounded"
             >
