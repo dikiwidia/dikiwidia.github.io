@@ -9,10 +9,12 @@ import kamus_baduy from "../assets/projects/kamus_baduy.png";
 import qudwahqu from "../assets/projects/qudwahqu.png";
 import unilam from "../assets/projects/unilam.png";
 import tabel_perkalian from "../assets/projects/tabel_perkalian.png";
+import kapm_alihdaya from "../assets/projects/kapm_alihdaya.png";
 import certified1 from "../assets/certificates/certified1.png";
 import certified2 from "../assets/certificates/certified2.png";
 import certified3 from "../assets/certificates/certified3.png";
 import certified4 from "../assets/certificates/certified4.png";
+import certified5 from "../assets/certificates/certified5.png";
 import ProgramLangComponent from "../components/ProgramLang";
 import ProjectExpComponent from "../components/ProjectExp";
 import WorkExpComponent from "../components/WorkExp";
@@ -158,7 +160,7 @@ const MainPage = () => {
         </div>
         {/* Experience */}
         <div className="flex flex-col justify-center lg:items-center lg:mx-8 lg:my-8 mx-4 my-4 mb-8">
-          <h1 className="text-xl font-bold text-teal-600 mb-4">
+          <h1 className="text-2xl font-bold text-teal-600 mb-4">
             Pengalaman Bekerja
           </h1>
           <ol className="flex flex-col gap-4 border-l-2 border-dashed border-teal-600 list-decimal list-inside pl-8 mx-4 lg:mx-0 xl:w-2/3">
@@ -215,7 +217,7 @@ const MainPage = () => {
         </div>
         {/* Certified */}
         <div className="flex flex-col justify-center lg:items-center lg:mx-8 lg:my-8 mx-4 my-4 mb-8">
-          <h1 className="text-xl font-bold text-teal-600 mb-4">
+          <h1 className="text-2xl font-bold text-teal-600 mb-4">
             Sertifikat Kemampuan / Pelatihan
           </h1>
           <div className="flex justify-center flex-wrap">
@@ -252,11 +254,19 @@ const MainPage = () => {
             >
               Cyber Security Workshop Sektor Pendidikan
             </CertificateComponent>
+            <CertificateComponent
+              title="Workshop Kustomisasi Templat OPAC SLiMS : Aman dan Nyaman"
+              lang="PSSN"
+              link="#"
+              image={certified5}
+            >
+              Workshop Kustomisasi Templat OPAC SLiMS : “Aman dan Nyaman”
+            </CertificateComponent>
           </div>
         </div>
         {/* Projects */}
         <div className="flex flex-col justify-center lg:items-center lg:mx-8 lg:my-8 mx-4 my-4 mb-8">
-          <h1 className="text-xl font-bold text-teal-600 mb-4">
+          <h1 className="text-2xl font-bold text-teal-600 mb-4">
             Portofolio / Proyek Pekerjaan
           </h1>
           <div className="flex justify-center flex-wrap">
@@ -366,7 +376,7 @@ const MainPage = () => {
             </ProjectExpComponent>
             <ProjectExpComponent
               title="Tabel Perkalian"
-              lang="ReactJs, TailwindCss"
+              lang="ReactJs, TailwindCSS"
               image={tabel_perkalian}
             >
               Ini adalah tabel perkalian yang dibuat dengan ReactJs dan
@@ -382,11 +392,28 @@ const MainPage = () => {
               </a>
               ]
             </ProjectExpComponent>
+            <ProjectExpComponent
+              title="Presensi Karyawan"
+              lang="VueJs, TailwindCSS, Laravel"
+              image={kapm_alihdaya}
+            >
+              Aplikasi ini digunakan untuk presensi Petugas Jalur Lintasan pada
+              PT Kereta Api Properti Manajemen.
+              <br /> [
+              <a
+                href="https://kapm-alihdaya-areajakarta.id"
+                target="_blank"
+                className="text-sm text-sky-600 hover:text-emerald-600"
+              >
+                Lihat Project
+              </a>
+              ]
+            </ProjectExpComponent>
           </div>
         </div>
         {/* Skills */}
         <div className="flex flex-col justify-center lg:items-center lg:mx-8 lg:my-8 mx-4 my-4 mb-8">
-          <h1 className="text-xl font-bold text-teal-600 mb-4">
+          <h1 className="text-2xl font-bold text-teal-600 mb-4">
             Bahasa Pemrograman / Framework / Keahlian
           </h1>
           <div className="flex flex-col lg:flex-row lg:flex-wrap justify-center items-center gap-2 mb-8 w-full">
@@ -394,11 +421,11 @@ const MainPage = () => {
             <ProgramLangComponent lang="css3" rating={4.5} />
             <ProgramLangComponent lang="php" rating={5.0} />
             <ProgramLangComponent lang="js" rating={4.5} />
-            <ProgramLangComponent lang="dart" rating={4.5} />
-            <ProgramLangComponent lang="react" rating={4.0} />
+            <ProgramLangComponent lang="dart" rating={5.0} />
+            <ProgramLangComponent lang="react" rating={4.5} />
             <ProgramLangComponent lang="laravel" rating={5.0} />
-            <ProgramLangComponent lang="vuejs" rating={4.0} />
-            <ProgramLangComponent lang="tailwindcss" rating={4.5} />
+            <ProgramLangComponent lang="vuejs" rating={4.5} />
+            <ProgramLangComponent lang="tailwindcss" rating={5.0} />
             <ProgramLangComponent lang="jquery" rating={4.5} />
             <ProgramLangComponent lang="bootstrap" rating={4.0} />
             <ProgramLangComponent lang="ubuntu-server" rating={5.0} />

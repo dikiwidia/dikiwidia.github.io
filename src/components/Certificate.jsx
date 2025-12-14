@@ -19,9 +19,13 @@ const CertificateComponent = (props) => {
           <a
             href={link}
             target="_blank"
-            className="flex items-center gap-1 text-sm bg-slate-500 hover:bg-emerald-600 text-slate-50 px-4 py-2 rounded-sm"
+            className={`flex items-center gap-1 text-sm  text-slate-50 px-4 py-2 rounded-sm  ${
+              link === "#"
+                ? "bg-slate-300"
+                : "bg-slate-500 hover:bg-emerald-600"
+            }`}
           >
-            <FaDownload className="w-4 h-4" />
+            <FaDownload className={`w-4 h-4`} />
             Unduh Sertifikat
           </a>
         </div>
